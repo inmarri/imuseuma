@@ -1,0 +1,42 @@
+package sol.bluetooth;
+
+import java.util.UUID;
+
+import malacatiny.aspects.distribution.sol.SolAPInterface;
+import android.bluetooth.BluetoothAdapter;
+import android.util.Log;
+import candileja.core.Agent;
+
+public class SBAPInterface extends SolAPInterface {
+	// debuging
+	private Boolean d=false;
+	private String tag="SBAPInterface";
+	
+	private String address;
+	private UUID myUUID;
+	private String mas;
+	private String cat;
+	
+	public void startAP(Object[] obj) {
+		address=(String)obj[0];
+		myUUID= UUID.fromString((String)obj[1]);
+		mas=(String)obj[2];
+		cat=(String)obj[3];
+	}
+	
+	public boolean deployAgent(Object[] obj) {
+		if(d)Log.d(tag,"a");
+		SBPlugin sb=new SBPlugin(address,myUUID,(String)obj[0],(BluetoothAdapter)obj[1],mas,cat);
+		if(d)Log.d(tag,"b");
+		setPlugin(sb);
+		if(d)Log.d(tag,"c");
+		Thread pluginThread=new Thread(sb);
+		if(d)Log.d(tag,"d");
+		Agent.myAgent.addActiveAspect((String)obj[2], sb);
+		if(d)Log.d(tag,"e");
+		pluginThread.start();
+		if(d)Log.d(tag,"f");
+		return true;
+	}
+
+}

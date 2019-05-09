@@ -1,0 +1,181 @@
+package sol.bluetooth;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.util.UUID;
+import java.util.Vector;
+
+import malacatiny.aspects.distribution.sol.RegisterGroupEvent;
+import malacatiny.aspects.distribution.sol.SolPluginRunningEvent;
+import malacatiny.aspects.distribution.sol.SolPluginUnregisterEvent;
+import malacatiny.aspects.representation.aurora.AuroraMessage;
+import android.bluetooth.BluetoothAdapter;
+import android.bluetooth.BluetoothDevice;
+import android.bluetooth.BluetoothSocket;
+import android.util.Log;
+import candileja.core.aspect.distribution.DistributionAspect;
+
+public class SBPlugin extends DistributionAspect implements Runnable{
+	
+	// Debuging
+	private String tag="SBPlugin";
+	private Boolean d=true;
+	
+	private BluetoothAdapter btAdapter = null;
+	private BluetoothSocket btSocket = null;
+	private OutputStream outStream = null;
+	private String address;
+	private UUID MYUUID;
+	private String aid;
+	private Boolean end;
+	private String mas;
+	private String category;
+	private String idaspect;
+
+	public SBPlugin(String address2, UUID myUUID,String a,BluetoothAdapter obj,String mas, String cat, String idaspect) {
+		address=address2;
+		MYUUID=myUUID;
+		aid=a;
+		btAdapter=obj;
+		end=false;
+		this.mas = mas;
+		this.category = cat;
+		this.idaspect = idaspect;
+	}
+
+	@Override
+	public Object handleOutputMessage(Object message) {
+		try {
+			if(d)Log.d(tag,"en handle output message comenzamos");
+			outStream = btSocket.getOutputStream();  
+			AuroraMessage msg=(AuroraMessage)message;
+			msg.setSender(aid);
+			byte[] msgBuffer = msg.toString().getBytes();
+			outStream.write(msgBuffer);		
+			if(d)Log.d(tag,"terminamos");
+		} catch (IOException e) {		 
+			e.printStackTrace();           
+		}
+		return message;
+	}
+
+	@Override
+	public Object getAID() {
+		return aid;
+	}
+
+	@Override
+	public void stopPlugin() {
+		end=true;
+		
+	}
+
+	public void run() {
+		// Set up a pointer to the remote node using it's address.
+	    BluetoothDevice device = btAdapter.getRemoteDevice(address);
+	    // Two things are needed to make a connection:
+	    //   A MAC address, which we got above.
+	    //   A Service ID or UUID.  In this case we are using the
+	    //     UUID for SPP.
+	    try {
+	    	btSocket = device.createRfcommSocketToServiceRecord(MYUUID);
+	    } catch (IOException e) {
+	    	e.printStackTrace();
+	    }
+	    // Discovery is resource intensive.  Make sure it isn't going on
+	    // when you attempt to connect and pass your message.
+	    btAdapter.cancelDiscovery();
+	    // Establish the connection.  This will block until it connects.
+	    try {
+	    	btSocket.connect();
+	    } catch (IOException e) {
+	    	try {
+	    		btSocket.close();
+	    	} catch (IOException e2) {
+	    		e2.printStackTrace();
+	    	}
+	    }
+	    
+	    try {
+			InputStream inStream=btSocket.getInputStream();
+			//BufferedReader bReader=new BufferedReader(new InputStreamReader(inStream));
+			if(d)Log.d(tag,"Antes de leer la linea");
+			registerAgent();
+
+			byte buffer[] = new byte[512];
+			StringBuffer result = new StringBuffer();
+			String lineRead;
+			while(!end){
+				//String lineRead=bReader.readLine();
+				int nCount = 0;
+				do
+		        {
+		        	try{
+		              nCount = inStream.read(buffer);
+		              result.append(new String(buffer, 0, nCount));
+		        	}catch(Exception e){
+		        		result = null;        	}
+		        }
+		        while (inStream.available() > 0);
+				lineRead = new String(result);
+				if(d)Log.d(tag,"Linea leida");
+				
+				result.delete(0, nCount);
+				
+				if(lineRead!=null){
+					//if(d)Log.d("line","Leo linea");
+					AuroraMessage input=new AuroraMessage(lineRead);
+					if(d)Log.d(tag,"Se ha recibido un mensaje");
+					handleInputMessage(input);
+					if(input.getOntology().equals("REG_ONTOLOGY")){
+						if(input.getProtocol().equals("RegisterAgent")){
+							// Lanzar evento de que está funcionando.
+							this.getMediator().throwEvent(new SolPluginRunningEvent());
+						}else if(input.getProtocol().equals("RegisterGroup")){
+							// Se inicia el plugin de grupos.
+							//this.createMulticastPlugin(input.getContent());
+							String group=input.getContent();
+							this.getMediator().throwEvent(new RegisterGroupEvent(group));
+						}else if(input.getProtocol().equals("UnregisterAgent") && input.getPerformative().equals(AuroraMessage.CONFIRM)){
+							this.stopPlugin();
+							// Lanzar evento de que está funcionando.
+							this.getMediator().throwEvent(new SolPluginUnregisterEvent());
+							this.getMediator().removeActiveAspectByClass(idaspect);
+							this.getMediator().removeCompositionRuleByAspect(idaspect);
+						}else if(input.getProtocol().equals("LeaveGroup")){
+							if(input.getPerformative().equals(AuroraMessage.CONFIRM)){
+								//removeMulticastPlugin(input.getContent());
+							}else if(input.getPerformative().equals(AuroraMessage.FAILURE)){
+								if(d)Log.d(tag,"El desregistro del grupo ha fallado.");
+							}
+							
+						}
+					}
+				}
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	    
+	
+	}
+	
+	private void registerAgent(){			
+		AuroraMessage msg=new AuroraMessage();
+		msg.setContent((String)this.getAID()+"##"+mas+"##"+category);
+		msg.setConverstionId(System.currentTimeMillis()+"");
+		Vector<String> rec=new Vector<String>();
+		rec.add("HOST");
+		msg.setReceivers(rec);
+		msg.setSender((String)this.getAID());
+		msg.setLanguage("FIPA-ACL");
+		msg.setOntology("REG_ONTOLOGY");
+		msg.setPerformative(AuroraMessage.REQUEST);
+		msg.setProtocol("RegisterAgent");
+		msg.setEnconding("UTF");
+		// Se envía el mensaje de registro.
+		this.handleOutputMessage(msg);
+	}
+
+}

@@ -1,0 +1,6 @@
+#!/bin/sh
+wget -O jre.bin http://javadl.sun.com/webapps/download/AutoDL?BundleId=40907
+chmod +x jre.bin
+./jre.bin
+rm jre.bin
+ln -s jre1.6.0_21 jre

@@ -1,0 +1,221 @@
+package malacatiny.aspects.distribution.sol;
+
+import java.util.Random;
+import java.util.StringTokenizer;
+import java.util.Vector;
+
+import malacatiny.aspects.representation.aurora.AuroraMessage;
+import candileja.core.Agent;
+import candileja.core.aspect.distribution.DistributionAspect;
+import candileja.core.aspect.distribution.FIPAAgentPlatform;
+
+public class SolAPInterface /*extends EventCommunication*/ implements FIPAAgentPlatform {
+	
+	// Debuging
+	//private String tag="SOL";
+	//private Boolean d=false;
+	
+	private String _IP;
+	private int _PORT;
+	private String _MAS;
+	private String _CAT;
+	private DistributionAspect _plugin;
+	//private List<MulticastAspect> groupList=new LinkedList<MulticastAspect>();
+	//private String answer;
+
+	public void startAP(Object[] obj) {
+		//if(d)Log.d(tag,"Se ejecuta startAP.");
+		this._IP=(String)obj[0];
+		this._PORT=((Integer)obj[1]).intValue();
+		this._MAS=(String)obj[2];
+		this._CAT=(String)obj[3];
+	}
+
+	public void stopAP() {
+		getPlugin().stopPlugin();
+	}
+
+	public boolean deployAgent(Object[] obj) {
+		//if(d)Log.d(tag,"A");
+		String agentName=(String)obj[0];
+		//if(d)Log.d(tag,"B");
+		setPlugin(new SolPlugin(this._IP,this._PORT,agentName,this._MAS,this._CAT));
+		//if(d)Log.d(tag,"c");
+		Thread pluginThread=new Thread((SolPlugin)getPlugin());
+		//if(d)Log.d(tag,"d.");
+		Agent.myAgent.addActiveAspect((String)obj[1], getPlugin());
+		//if(d)Log.d(tag,"e.");
+		pluginThread.start();
+		//if(d)Log.d(tag,"f.");
+		return true;
+	}
+
+	public boolean killAgent(Object[] obj) {
+		AuroraMessage msg=new AuroraMessage();
+        String convId=System.currentTimeMillis()+"";
+        msg.setConverstionId(convId);
+        msg.setEnconding("UTF");
+        msg.setProtocol("UnregisterAgent");
+        msg.setLanguage("unknown");
+        msg.setOntology("REG_ONTOLOGY");
+        msg.setPerformative(AuroraMessage.REQUEST);
+        msg.addReceiver("HOST");
+        msg.setContent("Bye");
+        getPlugin().handleOutputMessage(msg);
+        getPlugin().stopPlugin();
+		return true;
+	}
+
+	public String getID() {
+		return null;
+	}
+
+	public void setID(String id) {
+
+	}
+
+	public void registerService(Object[] obj) {
+		// Se compone el mensaje de registro.
+		AuroraMessage msg=new AuroraMessage();
+		msg.setContent("(SERVICE (NOMBRE "+(String)obj[0]+") (TIPO "+(String)obj[1]+"))");
+		msg.setConverstionId(System.currentTimeMillis()+"");
+		msg.setEnconding("UTF");
+		msg.setLanguage("FIPA-ACL");
+		msg.setOntology("DF_ONTOLOGY");
+		msg.setPerformative(AuroraMessage.REQUEST);
+		msg.setProtocol("RegisterService");
+		Vector<String> rec=new Vector<String>();
+		rec.add("HOST");
+		msg.setReceivers(rec);
+		getPlugin().handleOutputMessage(msg);
+	}
+	
+	public void unregisterService(Object[] obj) {
+		// obj[0]=type obj[1]=name
+		// Se compone el mensaje de registro.
+		AuroraMessage msg=new AuroraMessage();
+		msg.setContent("(SERVICE (NOMBRE "+(String)obj[0]+") (TIPO "+(String)obj[1]+"))");
+		msg.setConverstionId(System.currentTimeMillis()+"");
+		msg.setEnconding("UTF");
+		msg.setLanguage("FIPA-ACL");
+		msg.setOntology("DF_ONTOLOGY");
+		msg.setPerformative(AuroraMessage.REQUEST);
+		msg.setProtocol("UnregisterService");
+		Vector<String> rec=new Vector<String>();
+		rec.add("HOST");
+		msg.setReceivers(rec);
+		getPlugin().handleOutputMessage(msg);
+	}
+
+	public Object getServiceProviders(Object[] obj) {
+		AuroraMessage msg=new AuroraMessage();
+        String convId=System.currentTimeMillis()+"";
+        msg.setConverstionId(convId);
+        msg.setEnconding("UTF");
+        msg.setProtocol("QueryService");
+        msg.setLanguage("unknown");
+        msg.setOntology("DF_ONTOLOGY");
+        msg.setPerformative(AuroraMessage.QUERY_REF);
+        msg.addReceiver("HOST");
+        msg.setContent((String)obj[0]);
+        getPlugin().handleOutputMessage(msg);
+		return null;
+	}
+	
+	public Vector<Service> processServiceAnswer(String ans){
+        Vector<Service> res=new Vector<Service>();
+        Service ser;
+        String name,owner;
+        String aux;
+        
+        //if(d)Log.d(tag,ans);
+        
+        try{
+        StringTokenizer token=new StringTokenizer(ans," ");
+        // (ANSWER
+        aux=token.nextToken();
+        //if(d)Log.d(tag,"1"+aux);
+        // (SERVICE
+        aux=token.nextToken();
+        //if(d)Log.d(tag,"2"+aux);
+	        while(!aux.equals("))")){
+	            ser=new Service();           
+	            // (NAME
+	            token.nextToken();
+	            //if(d)Log.d(tag,"3"+aux);
+	            // Cogemos el nombre del servicio y le quitamos el último paréntesis
+	            name=new String(token.nextToken());
+	            ser.setName(name.substring(0, name.length()-1));
+	            //if(d)Log.d(tag,"El name "+ser.getName());
+	            // (OWNER
+	            token.nextToken();
+	            //if(d)Log.d(tag,"4"+aux);
+	            // Cogemos el owner y le quitamos los dos últimos paréntesis.
+	            owner=new String(token.nextToken());
+	            ser.setOwner(owner.substring(0, owner.length()-1));
+	            //if(d)Log.d(tag,"El owner "+ser.getOwner());
+	            // Se añade el elemento a la lista.
+	            res.addElement(ser);
+	            aux=new String(token.nextToken());
+	        }
+        }catch(Exception e){
+        	e.printStackTrace();
+        }
+        return res;
+    }
+	
+	/**
+	 * args[0]=nombre del grupo -> Identificador del pluging en la arquitectura.
+	 * args[1]=ip
+	 * args[2]=pto
+	 * */
+	public void registerWithGroup(Object[] args){
+		// Se inicia el plugin
+		//Integer port=(Integer)args[2];
+		//MulticastPlugin ma=new MulticastPlugin((String)_plugin.getAID(),(String)args[1],port.intValue());
+		//Thread ta=new Thread(ma);
+		// Se añade en la arquitectura
+		//Agent.myAgent.addActiveAspect((String)args[0], ma);
+		// Se envía un mensaje de registro en la plataforma
+		AuroraMessage registerMessage=new AuroraMessage();
+		String content=(String)args[0];//+":"+args[1]+":"+args[2];
+		registerMessage.setContent(content);
+		registerMessage.setConverstionId(new Random().nextInt()+"");
+		registerMessage.setEnconding("UTF-8");
+		registerMessage.setLanguage("English");
+		registerMessage.setOntology("REG_ONTOLOGY");
+		registerMessage.setPerformative(AuroraMessage.REQUEST);
+		registerMessage.setProtocol("RegisterGroup");
+		registerMessage.addReceiver("HOST");
+		registerMessage.setSender((String)getPlugin().getAID());
+		
+		getPlugin().handleOutputMessage(registerMessage);
+		// Se inicia la hebra para la escucha de mensajes.
+		//ta.start();
+	}
+	
+	public void leaveGroup(String id){
+		// Se envía un mensaje de registro en la plataforma
+		AuroraMessage leaveMessage=new AuroraMessage();
+		leaveMessage.setContent(id);
+		leaveMessage.setConverstionId(new Random().nextInt()+"");
+		leaveMessage.setEnconding("UTF-8");
+		leaveMessage.setLanguage("English");
+		leaveMessage.setOntology("REG_ONTOLOGY");
+		leaveMessage.setPerformative(AuroraMessage.REQUEST);
+		leaveMessage.setProtocol("LeaveGroup");
+		leaveMessage.addReceiver("HOST");
+		leaveMessage.setSender((String)getPlugin().getAID());
+		getPlugin().handleOutputMessage(leaveMessage);	
+	}
+
+	protected DistributionAspect getPlugin(){
+		return _plugin;
+	}
+	
+	protected void setPlugin(DistributionAspect sol){
+		_plugin=sol;
+	}
+	
+	
+}

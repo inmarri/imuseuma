@@ -1,0 +1,4 @@
+#!/bin/sh
+cd meshlium-serial
+/opt/jre/bin/java -Djava.library.path=lib -classpath lib -jar Meshlium.jar
+
