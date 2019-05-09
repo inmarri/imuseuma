@@ -8,9 +8,9 @@ La tecnología de agentes usada por iMuseumA es Self-StarMAS [1], una familia de
 Como ya se ha mencionado, la plataforma utilizada por iMuseumA es Sol, una plataforma de agentes para la Internet de las Cosas (IoT, por sus siglas en Inglés Internet of Things). Esta plataforma permite que agentes con tecnologías de comunicación diversa puedan interactuar. Además, a través de sus clientes da soporte a dispositivos con comunicaciones de bajo alcance como ZigBee y Bluetooth. En el caso del Museo se desplegó un cliente en el router Multi-Protocolo Meshlium (http://www.libelium.com/products/meshlium/).
 
 A la hora de desplegar iMuseumA seguiremos los siguientes pasos:
-1. Poner en ejecución la plataforma de agentes.
-2. Desplegar clientes de la plataforma.
-3. Desplegar los distintos tipos de agentes.
+1. Poner en ejecución la plataforma de agentes (SolAgentPlatform_NoSun).
+2. Desplegar clientes de la plataforma (Meshlium).
+3. Desplegar los distintos tipos de agentes (Agentes y Plugins y Waspmotes).
 
 # referencias
 [1] Inmaculada Ayala, Mercedes Amor, and Lidia Fuentes. 2013. Self-configuring agents for ambient assisted living applications. Personal Ubiquitous Comput. 17, 6 (August 2013), 1159-1169. DOI=http://dx.doi.org/10.1007/s00779-012-0555-9
