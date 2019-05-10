@@ -1,0 +1,1340 @@
+Agentes y Plugins/BTAgent/.classpath
+Agentes y Plugins/BTAgent/.project
+Agentes y Plugins/BTAgent/AndroidManifest.xml
+Agentes y Plugins/BTAgent/bin/AndroidManifest.xml
+Agentes y Plugins/BTAgent/bin/BTAgent.apk
+Agentes y Plugins/BTAgent/bin/classes.dex
+Agentes y Plugins/BTAgent/bin/classes/candileja/core/R$attr.class
+Agentes y Plugins/BTAgent/bin/classes/candileja/core/R$drawable.class
+Agentes y Plugins/BTAgent/bin/classes/candileja/core/R$id.class
+Agentes y Plugins/BTAgent/bin/classes/candileja/core/R$layout.class
+Agentes y Plugins/BTAgent/bin/classes/candileja/core/R$string.class
+Agentes y Plugins/BTAgent/bin/classes/candileja/core/R$style.class
+Agentes y Plugins/BTAgent/bin/classes/candileja/core/R.class
+Agentes y Plugins/BTAgent/bin/classes/com/btagent/BTAgent.class
+Agentes y Plugins/BTAgent/bin/classes/com/btagent/BTAgentActivity$1.class
+Agentes y Plugins/BTAgent/bin/classes/com/btagent/BTAgentActivity.class
+Agentes y Plugins/BTAgent/bin/classes/com/btagent/BTVocabulary.class
+Agentes y Plugins/BTAgent/bin/classes/com/btagent/plan/JoinGroupPlan.class
+Agentes y Plugins/BTAgent/bin/classes/com/btagent/plan/ReplyPlan.class
+Agentes y Plugins/BTAgent/bin/classes/com/btagent/protocol/GroupProtocol.class
+Agentes y Plugins/BTAgent/bin/classes/com/example/btagent/BuildConfig.class
+Agentes y Plugins/BTAgent/bin/classes/com/example/btagent/R$attr.class
+Agentes y Plugins/BTAgent/bin/classes/com/example/btagent/R$drawable.class
+Agentes y Plugins/BTAgent/bin/classes/com/example/btagent/R$id.class
+Agentes y Plugins/BTAgent/bin/classes/com/example/btagent/R$layout.class
+Agentes y Plugins/BTAgent/bin/classes/com/example/btagent/R$string.class
+Agentes y Plugins/BTAgent/bin/classes/com/example/btagent/R$style.class
+Agentes y Plugins/BTAgent/bin/classes/com/example/btagent/R.class
+Agentes y Plugins/BTAgent/bin/classes/malacatiny/aspects/distribution/sol/R$attr.class
+Agentes y Plugins/BTAgent/bin/classes/malacatiny/aspects/distribution/sol/R$drawable.class
+Agentes y Plugins/BTAgent/bin/classes/malacatiny/aspects/distribution/sol/R$id.class
+Agentes y Plugins/BTAgent/bin/classes/malacatiny/aspects/distribution/sol/R$layout.class
+Agentes y Plugins/BTAgent/bin/classes/malacatiny/aspects/distribution/sol/R$string.class
+Agentes y Plugins/BTAgent/bin/classes/malacatiny/aspects/distribution/sol/R$style.class
+Agentes y Plugins/BTAgent/bin/classes/malacatiny/aspects/distribution/sol/R.class
+Agentes y Plugins/BTAgent/bin/classes/sol/bluetooth/R$attr.class
+Agentes y Plugins/BTAgent/bin/classes/sol/bluetooth/R$drawable.class
+Agentes y Plugins/BTAgent/bin/classes/sol/bluetooth/R$id.class
+Agentes y Plugins/BTAgent/bin/classes/sol/bluetooth/R$layout.class
+Agentes y Plugins/BTAgent/bin/classes/sol/bluetooth/R$string.class
+Agentes y Plugins/BTAgent/bin/classes/sol/bluetooth/R$style.class
+Agentes y Plugins/BTAgent/bin/classes/sol/bluetooth/R.class
+Agentes y Plugins/BTAgent/bin/jarlist.cache
+Agentes y Plugins/BTAgent/bin/res/drawable-hdpi/ic_action_search.png
+Agentes y Plugins/BTAgent/bin/res/drawable-hdpi/ic_launcher.png
+Agentes y Plugins/BTAgent/bin/res/drawable-ldpi/ic_launcher.png
+Agentes y Plugins/BTAgent/bin/res/drawable-mdpi/ic_action_search.png
+Agentes y Plugins/BTAgent/bin/res/drawable-mdpi/ic_launcher.png
+Agentes y Plugins/BTAgent/bin/res/drawable-xhdpi/ic_action_search.png
+Agentes y Plugins/BTAgent/bin/res/drawable-xhdpi/ic_launcher.png
+Agentes y Plugins/BTAgent/bin/resources.ap_
+Agentes y Plugins/BTAgent/gen/candileja/core/R.java
+Agentes y Plugins/BTAgent/gen/com/example/btagent/BuildConfig.java
+Agentes y Plugins/BTAgent/gen/com/example/btagent/R.java
+Agentes y Plugins/BTAgent/gen/malacatiny/aspects/distribution/sol/R.java
+Agentes y Plugins/BTAgent/gen/sol/bluetooth/R.java
+Agentes y Plugins/BTAgent/ic_launcher-web.png
+Agentes y Plugins/BTAgent/libs/android-support-v4.jar
+Agentes y Plugins/BTAgent/proguard-project.txt
+Agentes y Plugins/BTAgent/project.properties
+Agentes y Plugins/BTAgent/res/drawable-hdpi/ic_action_search.png
+Agentes y Plugins/BTAgent/res/drawable-hdpi/ic_launcher.png
+Agentes y Plugins/BTAgent/res/drawable-ldpi/ic_launcher.png
+Agentes y Plugins/BTAgent/res/drawable-mdpi/ic_action_search.png
+Agentes y Plugins/BTAgent/res/drawable-mdpi/ic_launcher.png
+Agentes y Plugins/BTAgent/res/drawable-xhdpi/ic_action_search.png
+Agentes y Plugins/BTAgent/res/drawable-xhdpi/ic_launcher.png
+Agentes y Plugins/BTAgent/res/layout/main.xml
+Agentes y Plugins/BTAgent/res/values-v11/styles.xml
+Agentes y Plugins/BTAgent/res/values-v14/styles.xml
+Agentes y Plugins/BTAgent/res/values/strings.xml
+Agentes y Plugins/BTAgent/res/values/styles.xml
+Agentes y Plugins/BTAgent/src/com/btagent/BTAgent.java
+Agentes y Plugins/BTAgent/src/com/btagent/BTAgentActivity.java
+Agentes y Plugins/BTAgent/src/com/btagent/BTVocabulary.java
+Agentes y Plugins/BTAgent/src/com/btagent/plan/JoinGroupPlan.java
+Agentes y Plugins/BTAgent/src/com/btagent/plan/ReplyPlan.java
+Agentes y Plugins/BTAgent/src/com/btagent/protocol/GroupProtocol.java
+Agentes y Plugins/Candileja/.classpath
+Agentes y Plugins/Candileja/.project
+Agentes y Plugins/Candileja/.settings/org.eclipse.jdt.core.prefs
+Agentes y Plugins/Candileja/AndroidManifest.xml
+Agentes y Plugins/Candileja/bin/AndroidManifest.xml
+Agentes y Plugins/Candileja/bin/candileja.jar
+Agentes y Plugins/Candileja/bin/classes/candileja/core/ACLMessage.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/Agent.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/AgentConfigurationService.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/AgentContextInterface.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/AspectConfigurationService.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/BuildConfig.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/CandilejaActivity.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/Context.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/ContextEvent.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/Effector.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/EventCommunication.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/Facet.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/Goal.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/GoalType.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/KnowledgeEvent.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/Plan.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/PlanDescription.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/PlanLibrary.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/R$attr.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/R$drawable.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/R$layout.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/R$string.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/R.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/Scheduler.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/Sensor.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/WorkPacket.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/aspect/Aspect.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/aspect/AspectCompositionService.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/aspect/AspectDescription.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/aspect/BooleanConnector.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/aspect/InstancePattern.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/aspect/MessagePattern.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/aspect/PatternInterface.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/aspect/Role.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/aspect/RoleInstance.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/aspect/Scope.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/aspect/coordination/ProtocolConnector.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/aspect/coordination/ProtocolState.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/aspect/coordination/Transition.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/aspect/distribution/DistributionAspect.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/aspect/distribution/FIPAAgentPlatform.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/aspect/monitoring/Monitoring.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/aspect/representation/RepresentationAspect.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/aspect/selfadjusting/GoalState.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/aspect/selfadjusting/GoalTransition.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/aspect/selfadjusting/Policy.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/aspect/selfadjusting/Reconfiguration.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/aspect/selfadjusting/SelfAdjusting.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/aspect/selfadjusting/SelfConfiguration.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/aspect/selfadjusting/SituationalPattern.class
+Agentes y Plugins/Candileja/bin/classes/candileja/core/aspect/selfadjusting/TruePattern.class
+Agentes y Plugins/Candileja/bin/jarlist.cache
+Agentes y Plugins/Candileja/bin/res/drawable-hdpi/ic_launcher.png
+Agentes y Plugins/Candileja/bin/res/drawable-ldpi/ic_launcher.png
+Agentes y Plugins/Candileja/bin/res/drawable-mdpi/ic_launcher.png
+Agentes y Plugins/Candileja/gen/candileja/core/BuildConfig.java
+Agentes y Plugins/Candileja/gen/candileja/core/R.java
+Agentes y Plugins/Candileja/proguard.cfg
+Agentes y Plugins/Candileja/project.properties
+Agentes y Plugins/Candileja/res/drawable-hdpi/ic_launcher.png
+Agentes y Plugins/Candileja/res/drawable-ldpi/ic_launcher.png
+Agentes y Plugins/Candileja/res/drawable-mdpi/ic_launcher.png
+Agentes y Plugins/Candileja/res/layout/main.xml
+Agentes y Plugins/Candileja/res/values/strings.xml
+Agentes y Plugins/Candileja/src/candileja/core/ACLMessage.java
+Agentes y Plugins/Candileja/src/candileja/core/Agent.java
+Agentes y Plugins/Candileja/src/candileja/core/AgentConfigurationService.java
+Agentes y Plugins/Candileja/src/candileja/core/AgentContextInterface.java
+Agentes y Plugins/Candileja/src/candileja/core/AspectConfigurationService.java
+Agentes y Plugins/Candileja/src/candileja/core/CandilejaActivity.java
+Agentes y Plugins/Candileja/src/candileja/core/Context.java
+Agentes y Plugins/Candileja/src/candileja/core/ContextEvent.java
+Agentes y Plugins/Candileja/src/candileja/core/Effector.java
+Agentes y Plugins/Candileja/src/candileja/core/EventCommunication.java
+Agentes y Plugins/Candileja/src/candileja/core/Facet.java
+Agentes y Plugins/Candileja/src/candileja/core/Goal.java
+Agentes y Plugins/Candileja/src/candileja/core/GoalType.java
+Agentes y Plugins/Candileja/src/candileja/core/KnowledgeEvent.java
+Agentes y Plugins/Candileja/src/candileja/core/Plan.java
+Agentes y Plugins/Candileja/src/candileja/core/PlanDescription.java
+Agentes y Plugins/Candileja/src/candileja/core/PlanLibrary.java
+Agentes y Plugins/Candileja/src/candileja/core/Scheduler.java
+Agentes y Plugins/Candileja/src/candileja/core/Sensor.java
+Agentes y Plugins/Candileja/src/candileja/core/WorkPacket.java
+Agentes y Plugins/Candileja/src/candileja/core/aspect/Aspect.java
+Agentes y Plugins/Candileja/src/candileja/core/aspect/AspectCompositionService.java
+Agentes y Plugins/Candileja/src/candileja/core/aspect/AspectDescription.java
+Agentes y Plugins/Candileja/src/candileja/core/aspect/BooleanConnector.java
+Agentes y Plugins/Candileja/src/candileja/core/aspect/InstancePattern.java
+Agentes y Plugins/Candileja/src/candileja/core/aspect/MessagePattern.java
+Agentes y Plugins/Candileja/src/candileja/core/aspect/PatternInterface.java
+Agentes y Plugins/Candileja/src/candileja/core/aspect/Role.java
+Agentes y Plugins/Candileja/src/candileja/core/aspect/RoleInstance.java
+Agentes y Plugins/Candileja/src/candileja/core/aspect/Scope.java
+Agentes y Plugins/Candileja/src/candileja/core/aspect/coordination/ProtocolConnector.java
+Agentes y Plugins/Candileja/src/candileja/core/aspect/coordination/ProtocolState.java
+Agentes y Plugins/Candileja/src/candileja/core/aspect/coordination/Transition.java
+Agentes y Plugins/Candileja/src/candileja/core/aspect/distribution/DistributionAspect.java
+Agentes y Plugins/Candileja/src/candileja/core/aspect/distribution/FIPAAgentPlatform.java
+Agentes y Plugins/Candileja/src/candileja/core/aspect/monitoring/Monitoring.java
+Agentes y Plugins/Candileja/src/candileja/core/aspect/representation/RepresentationAspect.java
+Agentes y Plugins/Candileja/src/candileja/core/aspect/selfadjusting/GoalState.java
+Agentes y Plugins/Candileja/src/candileja/core/aspect/selfadjusting/GoalTransition.java
+Agentes y Plugins/Candileja/src/candileja/core/aspect/selfadjusting/Policy.java
+Agentes y Plugins/Candileja/src/candileja/core/aspect/selfadjusting/Reconfiguration.java
+Agentes y Plugins/Candileja/src/candileja/core/aspect/selfadjusting/SelfAdjusting.java
+Agentes y Plugins/Candileja/src/candileja/core/aspect/selfadjusting/SelfConfiguration.java
+Agentes y Plugins/Candileja/src/candileja/core/aspect/selfadjusting/SituationalPattern.java
+Agentes y Plugins/Candileja/src/candileja/core/aspect/selfadjusting/TruePattern.java
+Agentes y Plugins/GuideAgent/.classpath
+Agentes y Plugins/GuideAgent/.project
+Agentes y Plugins/GuideAgent/AndroidManifest.xml
+Agentes y Plugins/GuideAgent/bin/AndroidManifest.xml
+Agentes y Plugins/GuideAgent/bin/GuideAgent.apk
+Agentes y Plugins/GuideAgent/bin/classes.dex
+Agentes y Plugins/GuideAgent/bin/classes/candileja/core/R$attr.class
+Agentes y Plugins/GuideAgent/bin/classes/candileja/core/R$drawable.class
+Agentes y Plugins/GuideAgent/bin/classes/candileja/core/R$id.class
+Agentes y Plugins/GuideAgent/bin/classes/candileja/core/R$layout.class
+Agentes y Plugins/GuideAgent/bin/classes/candileja/core/R$string.class
+Agentes y Plugins/GuideAgent/bin/classes/candileja/core/R.class
+Agentes y Plugins/GuideAgent/bin/classes/inma/guideagent/BuildConfig.class
+Agentes y Plugins/GuideAgent/bin/classes/inma/guideagent/ButtonEvent.class
+Agentes y Plugins/GuideAgent/bin/classes/inma/guideagent/GuideAgent.class
+Agentes y Plugins/GuideAgent/bin/classes/inma/guideagent/GuideAgentActivity$1.class
+Agentes y Plugins/GuideAgent/bin/classes/inma/guideagent/GuideAgentActivity$2.class
+Agentes y Plugins/GuideAgent/bin/classes/inma/guideagent/GuideAgentActivity.class
+Agentes y Plugins/GuideAgent/bin/classes/inma/guideagent/GuideVocabulary.class
+Agentes y Plugins/GuideAgent/bin/classes/inma/guideagent/R$attr.class
+Agentes y Plugins/GuideAgent/bin/classes/inma/guideagent/R$drawable.class
+Agentes y Plugins/GuideAgent/bin/classes/inma/guideagent/R$id.class
+Agentes y Plugins/GuideAgent/bin/classes/inma/guideagent/R$layout.class
+Agentes y Plugins/GuideAgent/bin/classes/inma/guideagent/R$string.class
+Agentes y Plugins/GuideAgent/bin/classes/inma/guideagent/R.class
+Agentes y Plugins/GuideAgent/bin/classes/inma/guideagent/plan/DoNothing.class
+Agentes y Plugins/GuideAgent/bin/classes/inma/guideagent/plan/JoinGroupPlan.class
+Agentes y Plugins/GuideAgent/bin/classes/inma/guideagent/plan/ReceiveMessage.class
+Agentes y Plugins/GuideAgent/bin/classes/inma/guideagent/plan/SendGroupMessage.class
+Agentes y Plugins/GuideAgent/bin/classes/inma/guideagent/protocol/RegisterGroupProtocol.class
+Agentes y Plugins/GuideAgent/bin/classes/malacatiny/aspects/distribution/sol/R$attr.class
+Agentes y Plugins/GuideAgent/bin/classes/malacatiny/aspects/distribution/sol/R$drawable.class
+Agentes y Plugins/GuideAgent/bin/classes/malacatiny/aspects/distribution/sol/R$id.class
+Agentes y Plugins/GuideAgent/bin/classes/malacatiny/aspects/distribution/sol/R$layout.class
+Agentes y Plugins/GuideAgent/bin/classes/malacatiny/aspects/distribution/sol/R$string.class
+Agentes y Plugins/GuideAgent/bin/classes/malacatiny/aspects/distribution/sol/R.class
+Agentes y Plugins/GuideAgent/bin/classes/sol/bluetooth/R$attr.class
+Agentes y Plugins/GuideAgent/bin/classes/sol/bluetooth/R$drawable.class
+Agentes y Plugins/GuideAgent/bin/classes/sol/bluetooth/R$id.class
+Agentes y Plugins/GuideAgent/bin/classes/sol/bluetooth/R$layout.class
+Agentes y Plugins/GuideAgent/bin/classes/sol/bluetooth/R$string.class
+Agentes y Plugins/GuideAgent/bin/classes/sol/bluetooth/R.class
+Agentes y Plugins/GuideAgent/bin/jarlist.cache
+Agentes y Plugins/GuideAgent/bin/res/drawable-hdpi/ic_launcher.png
+Agentes y Plugins/GuideAgent/bin/res/drawable-ldpi/ic_launcher.png
+Agentes y Plugins/GuideAgent/bin/res/drawable-mdpi/ic_launcher.png
+Agentes y Plugins/GuideAgent/bin/res/drawable-xhdpi/ic_launcher.png
+Agentes y Plugins/GuideAgent/bin/resources.ap_
+Agentes y Plugins/GuideAgent/gen/candileja/core/R.java
+Agentes y Plugins/GuideAgent/gen/inma/guideagent/BuildConfig.java
+Agentes y Plugins/GuideAgent/gen/inma/guideagent/R.java
+Agentes y Plugins/GuideAgent/gen/malacatiny/aspects/distribution/sol/R.java
+Agentes y Plugins/GuideAgent/gen/sol/bluetooth/R.java
+Agentes y Plugins/GuideAgent/proguard-project.txt
+Agentes y Plugins/GuideAgent/project.properties
+Agentes y Plugins/GuideAgent/res/drawable-hdpi/ic_launcher.png
+Agentes y Plugins/GuideAgent/res/drawable-ldpi/ic_launcher.png
+Agentes y Plugins/GuideAgent/res/drawable-mdpi/ic_launcher.png
+Agentes y Plugins/GuideAgent/res/drawable-xhdpi/ic_launcher.png
+Agentes y Plugins/GuideAgent/res/layout/main.xml
+Agentes y Plugins/GuideAgent/res/values/strings.xml
+Agentes y Plugins/GuideAgent/src/inma/guideagent/ButtonEvent.java
+Agentes y Plugins/GuideAgent/src/inma/guideagent/GuideAgent.java
+Agentes y Plugins/GuideAgent/src/inma/guideagent/GuideAgentActivity.java
+Agentes y Plugins/GuideAgent/src/inma/guideagent/GuideVocabulary.java
+Agentes y Plugins/GuideAgent/src/inma/guideagent/plan/DoNothing.java
+Agentes y Plugins/GuideAgent/src/inma/guideagent/plan/JoinGroupPlan.java
+Agentes y Plugins/GuideAgent/src/inma/guideagent/plan/ReceiveMessage.java
+Agentes y Plugins/GuideAgent/src/inma/guideagent/plan/SendGroupMessage.java
+Agentes y Plugins/GuideAgent/src/inma/guideagent/protocol/RegisterGroupProtocol.java
+Agentes y Plugins/SolBluetoothPlugin/.classpath
+Agentes y Plugins/SolBluetoothPlugin/.project
+Agentes y Plugins/SolBluetoothPlugin/.svn/entries
+Agentes y Plugins/SolBluetoothPlugin/.svn/format
+Agentes y Plugins/SolBluetoothPlugin/.svn/pristine/07/07808ab09cae161231e57e7355f3739856352136.svn-base
+Agentes y Plugins/SolBluetoothPlugin/.svn/pristine/09/09ea65885b4080e515ef7064e816c77991c0757b.svn-base
+Agentes y Plugins/SolBluetoothPlugin/.svn/pristine/23/23730fd0d5e720d1f719be1afc8c48fa7305da6c.svn-base
+Agentes y Plugins/SolBluetoothPlugin/.svn/pristine/26/2669873f891113a8f45506e825d0215306e95405.svn-base
+Agentes y Plugins/SolBluetoothPlugin/.svn/pristine/2d/2daabf8f0b2d25536c99faabc868854777582b77.svn-base
+Agentes y Plugins/SolBluetoothPlugin/.svn/pristine/31/312914890db8c5e0d44771436107e5ba83a7197a.svn-base
+Agentes y Plugins/SolBluetoothPlugin/.svn/pristine/38/38d7007a2d25991178055aadf204efb9d2a203c5.svn-base
+Agentes y Plugins/SolBluetoothPlugin/.svn/pristine/45/450d3d44325fdf259810a60e6afa36103e186b3d.svn-base
+Agentes y Plugins/SolBluetoothPlugin/.svn/pristine/45/452fdcdf7bc673e7b2cb5eb3c24edb70585398c1.svn-base
+Agentes y Plugins/SolBluetoothPlugin/.svn/pristine/4a/4a5a9affbb731f195fc18fea78d51be7db7536a2.svn-base
+Agentes y Plugins/SolBluetoothPlugin/.svn/pristine/50/502cd84fa444f26d7ecfdf4a355064867977f236.svn-base
+Agentes y Plugins/SolBluetoothPlugin/.svn/pristine/52/520d61c3d8d48c8ce3f2be8b74eb622243cea6f6.svn-base
+Agentes y Plugins/SolBluetoothPlugin/.svn/pristine/54/54cc10b85ceca8bbe4c939343f9911660cdbf77f.svn-base
+Agentes y Plugins/SolBluetoothPlugin/.svn/pristine/68/68b8ab0d3181d74d05641da4c5ed13465ea1a997.svn-base
+Agentes y Plugins/SolBluetoothPlugin/.svn/pristine/77/7761bceaf18ed25cdba5f34bf00a55616d078acf.svn-base
+Agentes y Plugins/SolBluetoothPlugin/.svn/pristine/7b/7b9983e53068c46d69cc5f28869c083a9a95612e.svn-base
+Agentes y Plugins/SolBluetoothPlugin/.svn/pristine/82/82acdd75e3fcc36026109406625edc69d4d7212d.svn-base
+Agentes y Plugins/SolBluetoothPlugin/.svn/pristine/8f/8f2a9e390b98fa029cb1e175eef65b357957eef7.svn-base
+Agentes y Plugins/SolBluetoothPlugin/.svn/pristine/94/94417e9ed7e4cd24066833276cc435321bb5ce13.svn-base
+Agentes y Plugins/SolBluetoothPlugin/.svn/pristine/aa/aa01944879b36d18a43ae86c72a4c2d3490bc40b.svn-base
+Agentes y Plugins/SolBluetoothPlugin/.svn/pristine/b0/b0d85a7e1cde20d7f892772ca7c485335f96545e.svn-base
+Agentes y Plugins/SolBluetoothPlugin/.svn/pristine/b3/b35bf3f599ea6709f69a4fe0217c7154a635c660.svn-base
+Agentes y Plugins/SolBluetoothPlugin/.svn/pristine/b6/b65fdde1fb7627f66fafa79a26990f7b9b4278f2.svn-base
+Agentes y Plugins/SolBluetoothPlugin/.svn/pristine/c8/c83e442891d71e66a5bff8de7f0da7352baf894f.svn-base
+Agentes y Plugins/SolBluetoothPlugin/.svn/pristine/ea/eab74af2329bb7a9e941e5cc0b77d5381ca1b6cf.svn-base
+Agentes y Plugins/SolBluetoothPlugin/.svn/wc.db
+Agentes y Plugins/SolBluetoothPlugin/AndroidManifest.xml
+Agentes y Plugins/SolBluetoothPlugin/bin/AndroidManifest.xml
+Agentes y Plugins/SolBluetoothPlugin/bin/classes/sol/bluetooth/BuildConfig.class
+Agentes y Plugins/SolBluetoothPlugin/bin/classes/sol/bluetooth/R$attr.class
+Agentes y Plugins/SolBluetoothPlugin/bin/classes/sol/bluetooth/R$drawable.class
+Agentes y Plugins/SolBluetoothPlugin/bin/classes/sol/bluetooth/R$layout.class
+Agentes y Plugins/SolBluetoothPlugin/bin/classes/sol/bluetooth/R$string.class
+Agentes y Plugins/SolBluetoothPlugin/bin/classes/sol/bluetooth/R.class
+Agentes y Plugins/SolBluetoothPlugin/bin/classes/sol/bluetooth/SBAPInterface.class
+Agentes y Plugins/SolBluetoothPlugin/bin/classes/sol/bluetooth/SBPlugin.class
+Agentes y Plugins/SolBluetoothPlugin/bin/classes/sol/bluetooth/SolBluetoothPluginActivity.class
+Agentes y Plugins/SolBluetoothPlugin/bin/jarlist.cache
+Agentes y Plugins/SolBluetoothPlugin/bin/res/drawable-hdpi/ic_launcher.png
+Agentes y Plugins/SolBluetoothPlugin/bin/res/drawable-ldpi/ic_launcher.png
+Agentes y Plugins/SolBluetoothPlugin/bin/res/drawable-mdpi/ic_launcher.png
+Agentes y Plugins/SolBluetoothPlugin/bin/res/drawable-xhdpi/ic_launcher.png
+Agentes y Plugins/SolBluetoothPlugin/bin/solbluetoothplugin.jar
+Agentes y Plugins/SolBluetoothPlugin/gen/sol/bluetooth/BuildConfig.java
+Agentes y Plugins/SolBluetoothPlugin/gen/sol/bluetooth/R.java
+Agentes y Plugins/SolBluetoothPlugin/proguard-project.txt
+Agentes y Plugins/SolBluetoothPlugin/project.properties
+Agentes y Plugins/SolBluetoothPlugin/res/drawable-hdpi/ic_launcher.png
+Agentes y Plugins/SolBluetoothPlugin/res/drawable-ldpi/ic_launcher.png
+Agentes y Plugins/SolBluetoothPlugin/res/drawable-mdpi/ic_launcher.png
+Agentes y Plugins/SolBluetoothPlugin/res/drawable-xhdpi/ic_launcher.png
+Agentes y Plugins/SolBluetoothPlugin/res/layout/main.xml
+Agentes y Plugins/SolBluetoothPlugin/res/values/strings.xml
+Agentes y Plugins/SolBluetoothPlugin/src/sol/bluetooth/SBAPInterface.java
+Agentes y Plugins/SolBluetoothPlugin/src/sol/bluetooth/SBPlugin.java
+Agentes y Plugins/SolBluetoothPlugin/src/sol/bluetooth/SolBluetoothPluginActivity.java
+Agentes y Plugins/SolPlugin/.classpath
+Agentes y Plugins/SolPlugin/.project
+Agentes y Plugins/SolPlugin/.settings/org.eclipse.jdt.core.prefs
+Agentes y Plugins/SolPlugin/.svn/entries
+Agentes y Plugins/SolPlugin/.svn/format
+Agentes y Plugins/SolPlugin/.svn/pristine/0d/0de8d34bd310afd1785f257d580240edab4ff025.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/20/20be1d28cf673964285f18a772a4c840d13189e0.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/25/25a8c3aa11eaa6b63bd30f8bad6334246df6217d.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/2d/2daabf8f0b2d25536c99faabc868854777582b77.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/37/37cadee3ab490d4ba9bf8686960c9556daae8d1f.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/4b/4b3c0248db43dd77fbbd1d301592eaeda49e85ea.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/4f/4f5b6fe83530ef5d7062efb84f47cde70d878363.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/51/51a1dd465a1bb3e08f6f9b0695fe965b2c0592a8.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/52/520d61c3d8d48c8ce3f2be8b74eb622243cea6f6.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/56/563fea87193c89cf05134fe44fa137be0449e261.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/59/597ca16a708216e190470f45bdde46e6e6094525.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/64/64763d04f0589de24405fb2ba903f29b68ca4ed4.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/6d/6ddb5616325e6804b1b1467ed597fcc8dce1705d.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/74/7479ff54bd651a75454d8a1866993d3f2082b154.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/7c/7cbb0a80689da95c9758ccbb9b8632edc6630476.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/85/856d2f0b33bdff8dfd31e29a760d2da6d958668a.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/8b/8bbbf16a8b28892fbd1f3281ed9808b1731844b6.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/91/91c0eed42bb6ffbb3e720f4309d06edaa5ab81b1.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/9b/9b7c5bef4dfe873b2e1a75463df6f5e965516fc8.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/9d/9da5972490b164e1b1bbaede6cbd9a8dac321e16.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/9e/9eda6fd9543349b885abbc93ec6aa43bae93e31f.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/a5/a5c9f287f0067daa55eee1654db23be521a2d6ad.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/a5/a5e1ad60d8e3f0ce4208fffa716a4ea29cd6020f.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/a9/a97e664a33158224ee3a0b5a52bfe3836cd52f3f.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/ab/ab9f07a16144ab4d962ce76c9b84929bc042babe.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/ae/ae9f9e0377605b08d463e8386bfb603a83901aba.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/bb/bbfc9d03e77a7ff08a0aac9b5fa9f861bdbb689a.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/c5/c51cb6c8b0e5850ad8eae4c96c09a15d651212f8.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/c8/c898e96bd563492577ef96ab2f7f3684db96b59d.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/cb/cbb9602c0b446063d9990f48dc28554c77053762.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/da/dab9122f41b8f635738ab44b288f12412bbdf3ce.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/e6/e671a6394bfdd359c5e003ff99188465fdf0f74f.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/ec/ec5b7f462aedfa5fc9457d8a8c344449c75b0999.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/ed/edd5ae5bf903089e525249c63889f8e968a0327e.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/f2/f26955dda403dd568843b97c4fc297ab8fda874e.svn-base
+Agentes y Plugins/SolPlugin/.svn/pristine/fa/faa2d20fba060f58f337aea99356c569107bdf8a.svn-base
+Agentes y Plugins/SolPlugin/.svn/wc.db
+Agentes y Plugins/SolPlugin/AndroidManifest.xml
+Agentes y Plugins/SolPlugin/bin/AndroidManifest.xml
+Agentes y Plugins/SolPlugin/bin/classes/malacatiny/aspects/distribution/sol/BuildConfig.class
+Agentes y Plugins/SolPlugin/bin/classes/malacatiny/aspects/distribution/sol/MulticastPlugin.class
+Agentes y Plugins/SolPlugin/bin/classes/malacatiny/aspects/distribution/sol/R$attr.class
+Agentes y Plugins/SolPlugin/bin/classes/malacatiny/aspects/distribution/sol/R$drawable.class
+Agentes y Plugins/SolPlugin/bin/classes/malacatiny/aspects/distribution/sol/R$layout.class
+Agentes y Plugins/SolPlugin/bin/classes/malacatiny/aspects/distribution/sol/R$string.class
+Agentes y Plugins/SolPlugin/bin/classes/malacatiny/aspects/distribution/sol/R.class
+Agentes y Plugins/SolPlugin/bin/classes/malacatiny/aspects/distribution/sol/RegisterGroupEvent.class
+Agentes y Plugins/SolPlugin/bin/classes/malacatiny/aspects/distribution/sol/RemovePluginPlan.class
+Agentes y Plugins/SolPlugin/bin/classes/malacatiny/aspects/distribution/sol/Service.class
+Agentes y Plugins/SolPlugin/bin/classes/malacatiny/aspects/distribution/sol/SolAPInterface.class
+Agentes y Plugins/SolPlugin/bin/classes/malacatiny/aspects/distribution/sol/SolPlugin.class
+Agentes y Plugins/SolPlugin/bin/classes/malacatiny/aspects/distribution/sol/SolPluginActivity.class
+Agentes y Plugins/SolPlugin/bin/classes/malacatiny/aspects/distribution/sol/SolPluginRunningEvent.class
+Agentes y Plugins/SolPlugin/bin/classes/malacatiny/aspects/distribution/sol/SolPluginUnregisterEvent.class
+Agentes y Plugins/SolPlugin/bin/classes/malacatiny/aspects/representation/aurora/AuroraMessage.class
+Agentes y Plugins/SolPlugin/bin/classes/malacatiny/aspects/representation/aurora/AuroraRepresentation.class
+Agentes y Plugins/SolPlugin/bin/jarlist.cache
+Agentes y Plugins/SolPlugin/bin/res/drawable-hdpi/icon.png
+Agentes y Plugins/SolPlugin/bin/res/drawable-ldpi/icon.png
+Agentes y Plugins/SolPlugin/bin/res/drawable-mdpi/icon.png
+Agentes y Plugins/SolPlugin/bin/solplugin.jar
+Agentes y Plugins/SolPlugin/default.properties
+Agentes y Plugins/SolPlugin/gen/malacatiny/aspects/distribution/sol/BuildConfig.java
+Agentes y Plugins/SolPlugin/gen/malacatiny/aspects/distribution/sol/R.java
+Agentes y Plugins/SolPlugin/lint.xml
+Agentes y Plugins/SolPlugin/proguard.cfg
+Agentes y Plugins/SolPlugin/project.properties
+Agentes y Plugins/SolPlugin/res/drawable-hdpi/icon.png
+Agentes y Plugins/SolPlugin/res/drawable-ldpi/icon.png
+Agentes y Plugins/SolPlugin/res/drawable-mdpi/icon.png
+Agentes y Plugins/SolPlugin/res/layout/main.xml
+Agentes y Plugins/SolPlugin/res/values/strings.xml
+Agentes y Plugins/SolPlugin/src/malacatiny/aspects/distribution/sol/MulticastPlugin.java
+Agentes y Plugins/SolPlugin/src/malacatiny/aspects/distribution/sol/RegisterGroupEvent.java
+Agentes y Plugins/SolPlugin/src/malacatiny/aspects/distribution/sol/RemovePluginPlan.java
+Agentes y Plugins/SolPlugin/src/malacatiny/aspects/distribution/sol/Service.java
+Agentes y Plugins/SolPlugin/src/malacatiny/aspects/distribution/sol/SolAPInterface.java
+Agentes y Plugins/SolPlugin/src/malacatiny/aspects/distribution/sol/SolPlugin.java
+Agentes y Plugins/SolPlugin/src/malacatiny/aspects/distribution/sol/SolPluginActivity.java
+Agentes y Plugins/SolPlugin/src/malacatiny/aspects/distribution/sol/SolPluginRunningEvent.java
+Agentes y Plugins/SolPlugin/src/malacatiny/aspects/distribution/sol/SolPluginUnregisterEvent.java
+Agentes y Plugins/SolPlugin/src/malacatiny/aspects/representation/aurora/AuroraMessage.java
+Agentes y Plugins/SolPlugin/src/malacatiny/aspects/representation/aurora/AuroraRepresentation.java
+Agentes y Plugins/VisitorAgent/.classpath
+Agentes y Plugins/VisitorAgent/.project
+Agentes y Plugins/VisitorAgent/AndroidManifest.xml
+Agentes y Plugins/VisitorAgent/bin/AndroidManifest.xml
+Agentes y Plugins/VisitorAgent/bin/VisitorAgent.apk
+Agentes y Plugins/VisitorAgent/bin/classes.dex
+Agentes y Plugins/VisitorAgent/bin/classes/candileja/core/R$attr.class
+Agentes y Plugins/VisitorAgent/bin/classes/candileja/core/R$drawable.class
+Agentes y Plugins/VisitorAgent/bin/classes/candileja/core/R$id.class
+Agentes y Plugins/VisitorAgent/bin/classes/candileja/core/R$layout.class
+Agentes y Plugins/VisitorAgent/bin/classes/candileja/core/R$string.class
+Agentes y Plugins/VisitorAgent/bin/classes/candileja/core/R.class
+Agentes y Plugins/VisitorAgent/bin/classes/inma/visitoragent/BuildConfig.class
+Agentes y Plugins/VisitorAgent/bin/classes/inma/visitoragent/R$attr.class
+Agentes y Plugins/VisitorAgent/bin/classes/inma/visitoragent/R$drawable.class
+Agentes y Plugins/VisitorAgent/bin/classes/inma/visitoragent/R$id.class
+Agentes y Plugins/VisitorAgent/bin/classes/inma/visitoragent/R$layout.class
+Agentes y Plugins/VisitorAgent/bin/classes/inma/visitoragent/R$string.class
+Agentes y Plugins/VisitorAgent/bin/classes/inma/visitoragent/R.class
+Agentes y Plugins/VisitorAgent/bin/classes/inma/visitoragent/VisitorAgent.class
+Agentes y Plugins/VisitorAgent/bin/classes/inma/visitoragent/VisitorAgentActivity$1.class
+Agentes y Plugins/VisitorAgent/bin/classes/inma/visitoragent/VisitorAgentActivity.class
+Agentes y Plugins/VisitorAgent/bin/classes/inma/visitoragent/VisitorVocabulary.class
+Agentes y Plugins/VisitorAgent/bin/classes/inma/visitoragent/plan/JoinGroupPlan.class
+Agentes y Plugins/VisitorAgent/bin/classes/inma/visitoragent/plan/ReplyPlan.class
+Agentes y Plugins/VisitorAgent/bin/classes/inma/visitoragent/protocol/GroupProtocol.class
+Agentes y Plugins/VisitorAgent/bin/classes/malacatiny/aspects/distribution/sol/R$attr.class
+Agentes y Plugins/VisitorAgent/bin/classes/malacatiny/aspects/distribution/sol/R$drawable.class
+Agentes y Plugins/VisitorAgent/bin/classes/malacatiny/aspects/distribution/sol/R$id.class
+Agentes y Plugins/VisitorAgent/bin/classes/malacatiny/aspects/distribution/sol/R$layout.class
+Agentes y Plugins/VisitorAgent/bin/classes/malacatiny/aspects/distribution/sol/R$string.class
+Agentes y Plugins/VisitorAgent/bin/classes/malacatiny/aspects/distribution/sol/R.class
+Agentes y Plugins/VisitorAgent/bin/classes/sol/bluetooth/R$attr.class
+Agentes y Plugins/VisitorAgent/bin/classes/sol/bluetooth/R$drawable.class
+Agentes y Plugins/VisitorAgent/bin/classes/sol/bluetooth/R$id.class
+Agentes y Plugins/VisitorAgent/bin/classes/sol/bluetooth/R$layout.class
+Agentes y Plugins/VisitorAgent/bin/classes/sol/bluetooth/R$string.class
+Agentes y Plugins/VisitorAgent/bin/classes/sol/bluetooth/R.class
+Agentes y Plugins/VisitorAgent/bin/jarlist.cache
+Agentes y Plugins/VisitorAgent/bin/res/drawable-hdpi/ic_launcher.png
+Agentes y Plugins/VisitorAgent/bin/res/drawable-ldpi/ic_launcher.png
+Agentes y Plugins/VisitorAgent/bin/res/drawable-mdpi/ic_launcher.png
+Agentes y Plugins/VisitorAgent/bin/res/drawable-xhdpi/ic_launcher.png
+Agentes y Plugins/VisitorAgent/bin/resources.ap_
+Agentes y Plugins/VisitorAgent/gen/candileja/core/R.java
+Agentes y Plugins/VisitorAgent/gen/inma/visitoragent/BuildConfig.java
+Agentes y Plugins/VisitorAgent/gen/inma/visitoragent/R.java
+Agentes y Plugins/VisitorAgent/gen/malacatiny/aspects/distribution/sol/R.java
+Agentes y Plugins/VisitorAgent/gen/sol/bluetooth/R.java
+Agentes y Plugins/VisitorAgent/proguard-project.txt
+Agentes y Plugins/VisitorAgent/project.properties
+Agentes y Plugins/VisitorAgent/res/drawable-hdpi/ic_launcher.png
+Agentes y Plugins/VisitorAgent/res/drawable-ldpi/ic_launcher.png
+Agentes y Plugins/VisitorAgent/res/drawable-mdpi/ic_launcher.png
+Agentes y Plugins/VisitorAgent/res/drawable-xhdpi/ic_launcher.png
+Agentes y Plugins/VisitorAgent/res/layout/main.xml
+Agentes y Plugins/VisitorAgent/res/values/strings.xml
+Agentes y Plugins/VisitorAgent/src/inma/visitoragent/VisitorAgent.java
+Agentes y Plugins/VisitorAgent/src/inma/visitoragent/VisitorAgentActivity.java
+Agentes y Plugins/VisitorAgent/src/inma/visitoragent/VisitorVocabulary.java
+Agentes y Plugins/VisitorAgent/src/inma/visitoragent/plan/JoinGroupPlan.java
+Agentes y Plugins/VisitorAgent/src/inma/visitoragent/plan/ReplyPlan.java
+Agentes y Plugins/VisitorAgent/src/inma/visitoragent/protocol/GroupProtocol.java
+Meshlium/.svn/entries
+Meshlium/.svn/format
+Meshlium/.svn/pristine/07/07415a09878f37b00c3016dcef19d0bdec97ec6b.svn-base
+Meshlium/.svn/pristine/16/1648119afb44c19424b012251c5f24f977adccd2.svn-base
+Meshlium/.svn/pristine/21/212151ae7f5aa8a2531879749b5e6c6679f2994f.svn-base
+Meshlium/.svn/pristine/28/283415385f1b2ad09cb5b2d8688f6616d32f64bd.svn-base
+Meshlium/.svn/pristine/33/33234218fe586638c1eaaf57a2512f61b0442fb8.svn-base
+Meshlium/.svn/pristine/35/350e839e45a075c2030a7e40d5078f5b9e542faa.svn-base
+Meshlium/.svn/pristine/4a/4a555193f900b78b653b78ff54925bd293190c8d.svn-base
+Meshlium/.svn/pristine/4a/4af29e7575e76de9bc957fe96284f281c049e1ba.svn-base
+Meshlium/.svn/pristine/5a/5ad8ff944053173c2943aeb953476c73c556839e.svn-base
+Meshlium/.svn/pristine/89/8901fa5748e4ef7fe71fdf71a0aab2912c05ad79.svn-base
+Meshlium/.svn/pristine/8f/8f6ec1803ac2388d78cd803480074d17a5226c30.svn-base
+Meshlium/.svn/pristine/a5/a562598b737850989918934bad0235387c5e866a.svn-base
+Meshlium/.svn/pristine/ae/ae6c437c86e0dd5c46e713546caeb3c3304cd399.svn-base
+Meshlium/.svn/pristine/ae/ae6ebb64eb59d24f3bf47cdb451c392c13344c5a.svn-base
+Meshlium/.svn/pristine/b1/b1be46a79569311c7eda33028d20270fe5e0cc81.svn-base
+Meshlium/.svn/pristine/c3/c3fd75272eeccc1d29bdd106a3352714756ebba6.svn-base
+Meshlium/.svn/pristine/c8/c8ea91c65fb694c1161e4845011b712663a704a3.svn-base
+Meshlium/.svn/pristine/e1/e1c9dc32d1bab71be705704698a1dda983e48dd8.svn-base
+Meshlium/.svn/pristine/e5/e5c1b9cbe3cbe8148d471449baef317eefb4915b.svn-base
+Meshlium/.svn/pristine/e9/e96c946be1e6537378fd532d2742b523df2725a4.svn-base
+Meshlium/.svn/wc.db
+Meshlium/build.xml
+Meshlium/build/built-jar.properties
+Meshlium/build/classes/meshlium/MeshliumApplication.class
+Meshlium/build/classes/org/serial/AuroraMessage.class
+Meshlium/build/classes/org/serial/Controller$Baud.class
+Meshlium/build/classes/org/serial/Controller$SerialName.class
+Meshlium/build/classes/org/serial/Controller.class
+Meshlium/build/classes/org/serial/Meshlium.class
+Meshlium/build/classes/org/serial/TCPConnection.class
+Meshlium/build/classes/org/serial/TCPListener.class
+Meshlium/install-java
+Meshlium/lib/RXTXcomm.jar
+Meshlium/lib/librxtxSerial.so
+Meshlium/lib/rxtxSerial.dll
+Meshlium/manifest.mf
+Meshlium/meshlium-serial/Meshlium.jar
+Meshlium/meshlium-serial/README.TXT
+Meshlium/meshlium-serial/lib/RXTXcomm.jar
+Meshlium/nbproject/build-impl.xml
+Meshlium/nbproject/genfiles.properties
+Meshlium/nbproject/private/private.properties
+Meshlium/nbproject/private/private.xml
+Meshlium/nbproject/project.properties
+Meshlium/nbproject/project.xml
+Meshlium/sniffer
+Meshlium/src/meshlium/MeshliumApplication.java
+Meshlium/src/org/serial/AuroraMessage.java
+Meshlium/src/org/serial/Controller.java
+Meshlium/src/org/serial/Meshlium.java
+Meshlium/src/org/serial/TCPConnection.java
+Meshlium/src/org/serial/TCPListener.java
+README.md
+SolAgentPlatform_NoSun/.svn/entries
+SolAgentPlatform_NoSun/.svn/format
+SolAgentPlatform_NoSun/.svn/pristine/04/04876da748a34e76ae1010c55be1227d20e89c49.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/05/05c38c063046c0bb957e5db8e6cce79280dc59b6.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/05/05ed7113c9575b17ba92f46a90db811453749904.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/06/0639e26db7eeb3d7f001da2fd99d762daaf32822.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/07/0753b1d02a5ca65dd2c27c040e8cf6c817e40807.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/07/07e1cd7a8a5f80d8670f91c0742fa4584f899174.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/08/08e4408be86b72213421a09ff34c370ab1b7ad99.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/09/09ed53d5ce14f798d3ed6046e57ba2d180bb1b2a.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/0a/0a2728cc84035ab3660ced421191306478873efe.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/0a/0a4736f89066f9713f22a3e315c6ef7b8cafbdfa.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/0f/0f602c94d608654efc3f508b23d342f997a02863.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/10/10bce5ed1d573504b864068a5511fc4326f269ce.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/12/12164ada238166ded5e3eb8e7ae243a2fb555661.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/15/1510a529a3031de04af3352cdb755024089f2414.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/15/157fdbd89b3f034f552356053edac07d4a2d21a1.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/15/159917f35cd153978fcdd501af4fc25789d9dd89.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/15/15caf97177f1dcae1bbf3645be2651cad0afb213.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/16/16854e6066aad55375fbac9dbd08c3b5722fd4d4.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/17/17ab000ec0a74d114eec85279afe21847540b22b.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/18/1803cdb984830d977ef6dd431d30408a17ab3cc3.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/19/19e65174aae443495a11fb9fda55815da6b86b3d.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/1b/1b233d095e05a72c6aa277e80d559427cf475a87.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/1b/1bb2b1ef853470c0298ef19232c8391fc02c1e24.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/1c/1c345e4cc9b08394762fe4dd1924853c64a738f2.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/1c/1cd83f70d5297062df34e51638c59926f6809c63.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/1d/1d8aa6e13586209311b29383c2a33c2030ce6c0f.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/1d/1d98c77947bb3157b8677feb741406c56b779470.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/1e/1ed38744d8cf17177cfb0824db484e5b8edff4af.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/1f/1f1eaef8a1eca122035554bea278dc4882e7ba9d.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/20/209b1b9ca0327a2cb5cb15d6ecbca74d1cf86f60.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/24/2407f9ad87f0f815efd45c80237dc304c6bd5037.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/24/248db28999c91549dec161c5a533a376dfc7887c.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/25/256b8388669e1486ad73cfe2aa4d0eb66b5b2af7.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/26/2630b9c49ab20866609b153c97a563737b8a8505.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/26/26af7dfb00b490f968f36261528d8499d3d83aa8.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/28/28a0e4d17dec3e59d7ec7b945e7a2ae3c0bd6037.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/28/28f5d9df3ad873084cb7ac3fd967ed5f71379929.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/29/29a2aed220c47e919ed52528fd163f2345824009.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/2b/2b2b366c9e0b38662ed827d858e07c87e95eeb40.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/2b/2bf1f33c826f2ea144215c1c216c61897b9e50c4.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/2d/2d70a1ef1be6debef081906409fb86b0a80c07ce.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/2e/2e2eb2b25e3e7a18dcc89d9abab86edf55ac6b52.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/2f/2f56ea717ef6ac623995c7dd951259b7e29b4a62.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/31/3172d9754689e00e45363aa0c08095c4574da8be.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/33/3379815d1a29fa09f8ff2650fbb1a62e4b46d376.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/33/33e9bc2dcc0cfb6b60feabf1cd7d540a23567fed.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/34/3455d8c84e6a0ce9810cd90955c24ca224b497d8.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/34/346a4b340e1ab383e328bbd5f4329c1a03c4a10b.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/35/3572748d61174c44a877e9289ef5cce566e6c80d.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/35/359b586372b3ed8395b589ffaa0810cbe707f5a9.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/35/35f9c74913635436620815ca3439e5bd1b53e09a.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/36/365b5320af50c29e56e470ce426d88eeabe9ccc0.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/38/387fb1fc0e670efb09d72877bff10e35f5806bf7.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/39/393e6dfec5b15c868e22577a62f11e357c44cb6e.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/3b/3b57154ea4c80bfd29def4570bd67a2c1c36094c.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/3b/3b5c6f864fa42d3e1647a78459be6aa5070a9b2d.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/3b/3bdb2a1774055359b8e8ee7af478016eff83adc4.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/3c/3c331c2c9d0e6c51c0883853570defac4bc44e02.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/3c/3c478d7145e48412c54bdd4199bf43fa3cb89633.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/3c/3ced10f65f82f43d326361b0815291495839381a.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/3d/3d1f545642aae9a5a6c9135d3bf479b554dbdb2c.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/3d/3dafa64d30c9c0eed53d3d215b99709914a61fe0.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/3e/3e19220a8e46adb094673da8243a7f4860e75cc1.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/40/40d6559365beea215266586ac357b6ed511a4822.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/42/42275138067064292effde6f9afb05b879071946.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/42/42e3b5b17fef7365156a6de862ac73d927d70269.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/44/4429f4fe6d4fef5e5eb4cae4e6a9f0c371301f82.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/44/44d24b7b56cced825061513efb1e05fb48f8cf91.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/47/470fe7ed504f18aaa0a39b1a67e650f2f205082c.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/47/478617e73c913b4908d49009b4b54205ff65ca99.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/47/47d56e8184fbeb0f70d3006445e2953c887ffb8c.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/4a/4a73ab2e29e42385160d3b9d8f25a0224cfa0774.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/4b/4b9ab830bb43aec7cc86f428b78c3cc272edb59c.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/4c/4c6dff6c4e257c21b1a44474129ccd2aba5527da.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/4f/4f1d2c9387e417d88518e41a0096f230b39dee72.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/4f/4fc1d4129be0cb9dede2d936503675a404962c16.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/50/503cc90deb9ffa831e00ec3b6e6748031baec786.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/50/505cc00045ca94272fcab2a2c99ee2e76547fcb7.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/51/510a331b58b7e38bdaeee27e1ffa54358e50307d.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/52/52005907d17edc94549088c8dc0c6b99ce9692ae.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/54/5464179e0434615660ffca4b34d4fe3fdef6d411.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/54/5464eeee40c01bfdf23c784b78c35667929d39e0.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/56/56abe28eda7e94ce3ba7642eeaf026a8bc12d95f.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/57/5798de804d87b9025edcbf7e6993916335ec0f71.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/58/586836b5b3f292543903a7b7da260a6c1e1887f6.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/59/5926951e41e41722cde1d80e26c35fc7ef08e462.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/59/59f34f8508ada42266983dac1f2f2d86f32cf028.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/5d/5d5a5a17e5abb281f97e2ed775cecbbbeff1ac87.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/5e/5e7dab80eea1a3709e92c0cdcfc552765ad18e7f.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/5f/5f74830ee29e38c5f444068315b410173b8f5d03.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/5f/5f8f7b327d5f049e762167e31d06e36ef69a96ad.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/5f/5fa394be0e2c1199c042a8e9aad44b8678155dd4.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/5f/5fba3aedad99704d00d80e3e057da12768e18b39.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/61/617529c6b69ab34ed776813995b45f440004dc75.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/61/61a313325e7ca4985c4e52d5ef73177cf7db71b3.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/69/69aa234dd36cdf00bc8bac79a3abaa22f7b28750.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/6b/6b75610e256fdf21f635c1a1dce9f9ee14f0f108.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/6e/6e993d3121170da9a3ddeee2d6e8cb38f15be118.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/6f/6f726fe747f26779c37e28b89429520e17566311.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/72/7228d49af76a6912530f5bb6b3b7e39812175b53.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/72/7268e27af999248bd7b9dfd1febeffacb4bfe9da.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/73/7337762a2008eed448ae330efb67d27fef1a59b0.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/73/73fbd8b9b61382fce142c60649dbbd84c285b61e.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/78/787a9e9352ff1fd8e508b6999df7593acebd0ca8.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/79/79ad8c0fe962fbd407eecf22075775efce96ebca.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/7d/7decbf033ff8194e243f731cdc9c4f281dcb1623.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/7e/7e1facdd0b6fdb72fd3cfe53fec73cc5e7144cde.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/7e/7e233a8851e766e8cae998f23f7e54844c2af4ae.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/7e/7e8a402e931725692ab1ac00e29a32df23295124.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/7f/7f21bf17384be13fd8c352bc73f848bd7a9ebd19.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/7f/7fa73b524f1640ead47cd481928c02b28f9a30c4.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/7f/7ff7e238dcb6ebfc578df21730fa315d01fb8624.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/81/819895eebb350534d5ed5a4f43590a5e696643f4.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/84/84a1a6540cc9455d79bd24f33375201c9af2dcf9.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/85/853078576333b1561f823286ede75847ce888c62.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/89/89caf8fc0603e2ae164f2a8e73d7b462d9dd1954.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/8a/8a08600cbd11a21655fd7ad082abb14f1344c982.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/8a/8a09fc6c5b7f3510bcba9037a698816d0886b976.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/8a/8ac7494bbc50da0fe9d37fba7fcd7698a3d4c49b.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/8c/8cdb1ae296ebaf4cf7d1364c63278225627cde9f.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/8d/8d10357c3d9ae694d06deb60ff484df4e8fd952e.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/8f/8f23045b907f14e2844e008928f6f4a60d5ced86.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/91/91bf359d50768a34b4ddc99892e51d8c066ac71a.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/92/92893964b19fb28822c6acebf8191903bd868c4d.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/94/9465757beac2f39f264aa151a9a8a382096663a3.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/96/9639c791f5183eea6d6c194ddef3a35188ea088d.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/96/96cb17782d3b66357c6f8e5954967e569f7dadbe.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/97/974cad2bcd83c850f933c1866a31732bc3ca1f55.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/98/98e45e6b89f401a4dc6b1335f0d65dc4e03d6d08.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/99/99ee40b944a5cbbf7d9cb9f268d4acb9d31a2481.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/9a/9a003efce92913c5a6ea8eae26458fd7b25ffcb4.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/9a/9a3c492c4357414f370de71487ff0a13e4055250.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/9a/9ad91d7091662ac3d72947212bc74ead2df78cca.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/9b/9b5d8731956d1254edfb872ff832193b130fcd21.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/9b/9bae6b611697709b3f82c67dbc75f976b2b654ef.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/9c/9ce2bb52fffcbf1c845356f60c10eca196055ee9.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/9c/9ceb38044ffd533bca0d4492f6190d95c1e3049e.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/9d/9ddeb1f2405c63ba37360ee7e93d1c532c3823d2.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/a0/a0ba39dd0c671f1db706f3ebbe5794c7ce6ecd85.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/a2/a2c021dc7e6207be26b91b99ba7d66d368291b6f.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/a3/a3e7de2f4d82f5f7ff584d67a8491224e13c4011.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/a4/a40882e97ee674a0637eb6508dff68804129ce9f.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/a4/a489eee07f2c48b890d8e07e50e8530f25ff9a86.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/a5/a5aa1a2a8dec05cc09c69abc79734bf9cb22edb6.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/a5/a5bae350a22ea30696ab89b79e2ed10539ac4d0d.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/a6/a6eaa6d4f564c8b61039f2578077d8c240d48cba.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/a7/a78632c6bfd3d45fdf0cb634f2f068f3dd173d76.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/a7/a7aad2db333946a1517f084381332243c1e8c5e8.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/a7/a7dcc8e8363e0e72d05705dc414e814e390d2e34.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/aa/aa0c76c36981aa3c42f8aa48be6689454b09cf54.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/aa/aa5fe4ed9dc8ce44599f6698489ff817e070dd87.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/ac/ac720b7b72e401721eae437a596e211eb2c0558b.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/ac/ac88d757295d00b2936a04489ec712b09838afe5.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/ae/ae503951f81be1158f7e849eb701858a1dedc97d.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/b3/b306e79db1a7d741bc3a5cec477d6cf9f06fa88e.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/b3/b32aa32f775c7b27f10ee796c11aa8e0166d78e8.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/b5/b561570438a83c3a9c2178ad6ea35ff166637de4.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/b7/b71679662f66594c60579bb4788e398752331153.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/b8/b815523f7a31b110e3e2c149f2350a0b4413f394.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/b9/b9d8f684539f250e31ede8451a7dfaff904771c7.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/bb/bb391a8ea73ada5bcf2ab0d11689b87a01db9278.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/bb/bb7a10384e85097dab5f2d9d344ccc6add8ac7db.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/bb/bbda57d0d9f380004297d5865a3a163b6ca167a3.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/be/be3976e3bd754500fc839cca5a3d5ed3734ec196.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/bf/bfbf56fa77ab30d7dc0c5a706a175a166562c0de.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/c0/c01ff5346fd2f8b5ceda93e0d092ac78be440f61.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/c4/c40e84d2551f367b735169eb171200016511d793.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/c4/c449679081b54626cf3df67ce5bf1376178b3934.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/c4/c4be3e5266fcb9c2b6be53caa098c179269d766c.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/c5/c51188bf3dffdfbf81faecab4f138d776e431946.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/c6/c60b6f2e6864c767503a0c8393b77e6e5416824a.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/c6/c64f0a98db09e1bbf4b8f928ca47db1ed35aec3c.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/c8/c82d5ed3b9f55c433f2e6a0fffdb47867e97c2d8.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/c9/c96f427d9de6e0b7c376f3e300325be3dc360b09.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/c9/c9ee8b2208b544b2fb963832729a6977b3be6b1d.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/cb/cb8699105953215eaee06411b4df3ad9afdc089a.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/cb/cb977b12ca3f8f7babe1177d5ad148d230214f08.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/cc/cc255926abace58400ae54082b114864b20ef216.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/ce/ce7f8b43e76836a52dafaa28e9b0101dac5ecd12.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/ce/ceb6274b5acfe3cc203f5751bbce808ba757b874.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/cf/cfea5408413214a907dfe6aacb5ef272299c8fd7.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/d1/d10ee257e5823475ebd380e0c5ac13ca62c34fbe.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/d1/d145afb951c5103d16391ebaf6f9f557895053cf.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/d1/d16e9c9167c9813ec5d0aed32cd4129e5966d37c.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/d1/d1ad92aa2c5ee9c151b99ab08b0c0c617c7dbc3e.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/d4/d4a4bf2dbed12de88c6831e89a22c3f58a3ce010.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/d5/d5cc01829c0029e0a86c68f43de4c06b13498a3e.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/d6/d6ed63234fc054acbc722891e02aba751fffa387.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/da/da98185c08fc903bc98e052ef03c463363e88561.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/da/dabd2b71c2af53cc6f9d33880805c6c1eea2349b.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/dc/dc3acf55f6f601c3ec1c444d0882dbe49bbc42fb.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/dc/dc650e05442b14deda38fece9a932ceb23aef5d3.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/e4/e476e486a720c5ea337bd052bfff52153f7da38f.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/e5/e511475498b21933e49fd7e044b09fb32d493814.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/e8/e897254e6da8bfd6a98b17f3b3dbb23a96b44545.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/e9/e9c73fd8dabb05da150bf0b2add9b1bd8434c6ca.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/eb/ebb37da919df5b826506bac5e386884cc69f5d37.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/ec/ec33c0697727fffc603af2b082834f36a29f05bd.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/ef/eff9fadd93c4e96972657eb09f0af97270226615.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/f0/f018d1d59261270be4dcdd1981a6e80587320d2d.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/f0/f09bcf91966cd589e453566a34822b0b973cf2d7.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/f1/f10ffaca5466d359599f33fffef1c1c66bfa23c5.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/f1/f15f602ebe2fa4796ccbe461f22d7ed96617b348.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/f2/f2668dbaea9e751f6ba39df2a91d02597c2ccb2c.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/f2/f26995f390a75798a755d22a451517198c5d9601.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/f2/f26b5e7b0361eb12f4801e5c05e518eedc2c724b.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/f2/f2a83e4e719201968c709ce90a0383f903c538ae.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/f3/f31144caeb983cef5e5475b6e2c42eac03985a09.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/f3/f3e989b46a7f9aa11fd6f5fed6ea8eaaa9a06742.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/f4/f4a6fc2d879d6ef3ccd6b7d930dcc06d902ff0a2.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/f6/f6bbcf39d9142515d25a90512c6d2fd6af8b1c95.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/f8/f8c5d393266e49d2b5e7569b34e9bc395f1e5d95.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/f8/f8e3d0d548bf1e5975ae2c625a84bd9aa5c63daf.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/f9/f97487a506a2009732922eeec2385174e58e1366.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/f9/f9f669e21c7846d2b9e36e3f456dbfec7581aef7.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/fa/fa078c97569b41d004eca63ca6d59d0a7c18c082.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/fd/fd206d17572af6d8377998ae38210229027b0df7.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/fd/fddf4caf772ba477a4ba1756473c36f58a0abd47.svn-base
+SolAgentPlatform_NoSun/.svn/pristine/fe/fe47be5fcfa8dc30e4e131936f1bb16351a44937.svn-base
+SolAgentPlatform_NoSun/.svn/wc.db
+SolAgentPlatform_NoSun/IPPort
+SolAgentPlatform_NoSun/Notas
+SolAgentPlatform_NoSun/README Linux.txt
+SolAgentPlatform_NoSun/build.xml
+SolAgentPlatform_NoSun/build/built-jar.properties
+SolAgentPlatform_NoSun/build/classes/IPPort
+SolAgentPlatform_NoSun/build/classes/Notas
+SolAgentPlatform_NoSun/build/classes/bt/javax/microedition/io/Connection.class
+SolAgentPlatform_NoSun/build/classes/bt/javax/microedition/io/ConnectionNotFoundException.class
+SolAgentPlatform_NoSun/build/classes/bt/javax/microedition/io/Connector.class
+SolAgentPlatform_NoSun/build/classes/bt/javax/microedition/io/ContentConnection.class
+SolAgentPlatform_NoSun/build/classes/bt/javax/microedition/io/InputConnection.class
+SolAgentPlatform_NoSun/build/classes/bt/javax/microedition/io/OutputConnection.class
+SolAgentPlatform_NoSun/build/classes/bt/javax/microedition/io/ServerSocketConnection.class
+SolAgentPlatform_NoSun/build/classes/bt/javax/microedition/io/SocketConnection.class
+SolAgentPlatform_NoSun/build/classes/bt/javax/microedition/io/StreamConnection.class
+SolAgentPlatform_NoSun/build/classes/bt/javax/microedition/io/StreamConnectionNotifier.class
+SolAgentPlatform_NoSun/build/classes/com/ibm/oti/connection/CreateConnection.class
+SolAgentPlatform_NoSun/build/classes/com/ibm/oti/connection/btgoep/Connection.class
+SolAgentPlatform_NoSun/build/classes/com/ibm/oti/connection/btl2cap/Connection.class
+SolAgentPlatform_NoSun/build/classes/com/ibm/oti/connection/btspp/Connection.class
+SolAgentPlatform_NoSun/build/classes/com/ibm/oti/connection/tcpobex/Connection.class
+SolAgentPlatform_NoSun/build/classes/com/ibm/oti/vm/VM.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BlueCoveConfigProperties.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BlueCoveImpl$1.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BlueCoveImpl$AsynchronousShutdownThread.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BlueCoveImpl$BluetoothStackHolder.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BlueCoveImpl$ShutdownHookThread.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BlueCoveImpl.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BlueCoveLocalDeviceProperties.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothConnectionAccess.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothConnectionAccessAdapter.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothConnectionNotifierBase.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothConnectionNotifierParams.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothConnectionNotifierServiceRecordAccess.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothConnectionParams.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothConsts$DeviceClassConsts.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothConsts.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothL2CAPClientConnection.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothL2CAPConnection.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothL2CAPConnectionNotifier.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothL2CAPServerConnection.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothRFCommClientConnection.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothRFCommConnection.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothRFCommConnectionNotifier.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothRFCommInputStream.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothRFCommOutputStream.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothRFCommServerConnection.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothServerConnection.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothStack$LibraryInformation.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothStack.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothStackBlueSoleil.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothStackBlueZ$1.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothStackBlueZ$2.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothStackBlueZ.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothStackBlueZConsts.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothStackBlueZNativeTests.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothStackExtension.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothStackMicrosoft$1.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothStackMicrosoft$2.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothStackMicrosoft$3.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothStackMicrosoft$4.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothStackMicrosoft$ConnectThread.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothStackMicrosoft.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothStackOSX$1.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothStackOSX$2.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothStackOSX$3.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothStackOSX$MaintainDeviceServiceClassesThread.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothStackOSX.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothStackToshiba.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothStackWIDCOMM$1.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothStackWIDCOMM$2.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothStackWIDCOMM.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/BluetoothStackWIDCOMMSDPInputStream.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/DebugLog$LoggerAppender.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/DebugLog$LoggerAppenderExt.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/DebugLog.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/DeviceInquiryRunnable.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/DeviceInquiryThread.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/DiscoveryListenerAdapter.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/IBMJ9Helper.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/MicroeditionConnector.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/NativeLibLoader$1.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/NativeLibLoader$LibState.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/NativeLibLoader.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/NativeTestInterfaces.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/NotImplementedError.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/NotImplementedIOException.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/NotSupportedIOException.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/NotSupportedRuntimeException.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/RemoteDeviceHelper$1.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/RemoteDeviceHelper$RemoteDeviceWithExtendedInfo.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/RemoteDeviceHelper.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/RetrieveDevicesCallback.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/SDPInputStream.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/SDPOutputStream.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/SearchServicesDeviceNotReachableException.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/SearchServicesException.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/SearchServicesRunnable.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/SearchServicesTerminatedException.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/SearchServicesThread.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/SelectServiceHandler$ParallelSearchServicesThread.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/SelectServiceHandler.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/ServiceRecordImpl.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/ServiceRecordsRegistry.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/ThreadLocalWrapper.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/Utils$TimerThread.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/Utils.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/UtilsJavaSE$JavaSE5Features.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/UtilsJavaSE$StackTraceLocation.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/UtilsJavaSE.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/UtilsJavaSE5.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/UtilsStringTokenizer.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/WeakVectorFactory$1.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/WeakVectorFactory$WeakVector.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/WeakVectorFactory$WeakVectorOnVectorImpl.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/WeakVectorFactory$WeakVectorOnWeakHashMapImpl$EnumerationAdapter.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/WeakVectorFactory$WeakVectorOnWeakHashMapImpl.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/WeakVectorFactory.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/btgoep/Connection.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/btl2cap/Connection.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/btspp/Connection.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/gcf/socket/ServerSocketConnection.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/gcf/socket/SocketConnection.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/obex/BlueCoveOBEX.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/obex/MD5DigestWrapper.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/obex/OBEXAuthentication$Challenge.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/obex/OBEXAuthentication$DigestResponse.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/obex/OBEXAuthentication.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/obex/OBEXClientOperation.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/obex/OBEXClientOperationGet.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/obex/OBEXClientOperationPut.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/obex/OBEXClientSessionImpl.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/obex/OBEXConnectionParams.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/obex/OBEXHeaderSetImpl.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/obex/OBEXOperation.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/obex/OBEXOperationCodes.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/obex/OBEXOperationDelivery.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/obex/OBEXOperationInputStream.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/obex/OBEXOperationOutputStream.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/obex/OBEXOperationReceive.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/obex/OBEXServerOperation.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/obex/OBEXServerOperationGet.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/obex/OBEXServerOperationPut.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/obex/OBEXServerSessionImpl.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/obex/OBEXSessionBase.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/obex/OBEXSessionNotifierImpl.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/obex/OBEXTCPServiceRecordImpl.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/obex/OBEXUtils.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/obex/UnsupportedInputStream.class
+SolAgentPlatform_NoSun/build/classes/com/intel/bluetooth/tcpobex/Connection.class
+SolAgentPlatform_NoSun/build/classes/javax/bluetooth/BluetoothConnectionException.class
+SolAgentPlatform_NoSun/build/classes/javax/bluetooth/BluetoothStateException.class
+SolAgentPlatform_NoSun/build/classes/javax/bluetooth/DataElement.class
+SolAgentPlatform_NoSun/build/classes/javax/bluetooth/DeviceClass.class
+SolAgentPlatform_NoSun/build/classes/javax/bluetooth/DiscoveryAgent.class
+SolAgentPlatform_NoSun/build/classes/javax/bluetooth/DiscoveryListener.class
+SolAgentPlatform_NoSun/build/classes/javax/bluetooth/L2CAPConnection.class
+SolAgentPlatform_NoSun/build/classes/javax/bluetooth/L2CAPConnectionNotifier.class
+SolAgentPlatform_NoSun/build/classes/javax/bluetooth/LocalDevice.class
+SolAgentPlatform_NoSun/build/classes/javax/bluetooth/RemoteDevice.class
+SolAgentPlatform_NoSun/build/classes/javax/bluetooth/ServiceRecord.class
+SolAgentPlatform_NoSun/build/classes/javax/bluetooth/ServiceRegistrationException.class
+SolAgentPlatform_NoSun/build/classes/javax/bluetooth/UUID.class
+SolAgentPlatform_NoSun/build/classes/javax/obex/Authenticator.class
+SolAgentPlatform_NoSun/build/classes/javax/obex/ClientSession.class
+SolAgentPlatform_NoSun/build/classes/javax/obex/HeaderSet.class
+SolAgentPlatform_NoSun/build/classes/javax/obex/Operation.class
+SolAgentPlatform_NoSun/build/classes/javax/obex/PasswordAuthentication.class
+SolAgentPlatform_NoSun/build/classes/javax/obex/ResponseCodes.class
+SolAgentPlatform_NoSun/build/classes/javax/obex/ServerRequestHandler.class
+SolAgentPlatform_NoSun/build/classes/javax/obex/SessionNotifier.class
+SolAgentPlatform_NoSun/build/classes/org/images/Add agent sniffer.png
+SolAgentPlatform_NoSun/build/classes/org/images/Add group.png
+SolAgentPlatform_NoSun/build/classes/org/images/Android.png
+SolAgentPlatform_NoSun/build/classes/org/images/Bluetooth.png
+SolAgentPlatform_NoSun/build/classes/org/images/ContactUs.png
+SolAgentPlatform_NoSun/build/classes/org/images/Exit.png
+SolAgentPlatform_NoSun/build/classes/org/images/Groups.png
+SolAgentPlatform_NoSun/build/classes/org/images/Register agent.png
+SolAgentPlatform_NoSun/build/classes/org/images/Remove agent sniffer.png
+SolAgentPlatform_NoSun/build/classes/org/images/Remove all.png
+SolAgentPlatform_NoSun/build/classes/org/images/Remove group.png
+SolAgentPlatform_NoSun/build/classes/org/images/Remove one.png
+SolAgentPlatform_NoSun/build/classes/org/images/Save as.png
+SolAgentPlatform_NoSun/build/classes/org/images/Send message group.png
+SolAgentPlatform_NoSun/build/classes/org/images/Send message user.png
+SolAgentPlatform_NoSun/build/classes/org/images/Send message user2.png
+SolAgentPlatform_NoSun/build/classes/org/images/Send message.png
+SolAgentPlatform_NoSun/build/classes/org/images/Services.png
+SolAgentPlatform_NoSun/build/classes/org/images/Sniffer.png
+SolAgentPlatform_NoSun/build/classes/org/images/SunSpot.png
+SolAgentPlatform_NoSun/build/classes/org/images/Under construction.png
+SolAgentPlatform_NoSun/build/classes/org/images/Unknown.png
+SolAgentPlatform_NoSun/build/classes/org/images/Unregister agent.png
+SolAgentPlatform_NoSun/build/classes/org/images/sol-icon.png
+SolAgentPlatform_NoSun/build/classes/org/images/sol-icon_mini.png
+SolAgentPlatform_NoSun/build/classes/org/images/sol.JPG
+SolAgentPlatform_NoSun/build/classes/org/images/sol_mini.jpg
+SolAgentPlatform_NoSun/build/classes/org/images/sol_mini2.jpg
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/AboutSolView$1$1.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/AboutSolView$1.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/AboutSolView.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/BluetoothDevicesView$1.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/BluetoothDevicesView.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/ContactUsView$1.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/ContactUsView$2.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/ContactUsView$3.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/ContactUsView$4.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/ContactUsView$5$1.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/ContactUsView$5.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/ContactUsView.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/GroupConnectionsView$1.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/GroupConnectionsView$2.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/GroupConnectionsView$3.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/GroupConnectionsView$4.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/GroupConnectionsView$5.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/GroupConnectionsView.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/GroupNameView$1.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/GroupNameView$2.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/GroupNameView$3.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/GroupNameView$4.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/GroupNameView$5.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/GroupNameView$6$1.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/GroupNameView$6.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/GroupNameView.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/MessageView$1.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/MessageView$2.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/MessageView$3.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/MessageView$4.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/MessageView$5$1.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/MessageView$5.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/MessageView.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/PortsView$1.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/PortsView$2.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/PortsView$3.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/PortsView$4.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/PortsView.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SolAgentPlatformView$1.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SolAgentPlatformView$10.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SolAgentPlatformView$11.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SolAgentPlatformView$12.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SolAgentPlatformView$13.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SolAgentPlatformView$14.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SolAgentPlatformView$15.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SolAgentPlatformView$16.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SolAgentPlatformView$17.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SolAgentPlatformView$18.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SolAgentPlatformView$19.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SolAgentPlatformView$2.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SolAgentPlatformView$20.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SolAgentPlatformView$21.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SolAgentPlatformView$22.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SolAgentPlatformView$23.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SolAgentPlatformView$24.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SolAgentPlatformView$25.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SolAgentPlatformView$26.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SolAgentPlatformView$3.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SolAgentPlatformView$4.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SolAgentPlatformView$5.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SolAgentPlatformView$6.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SolAgentPlatformView$7.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SolAgentPlatformView$8.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SolAgentPlatformView$9.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SolAgentPlatformView.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SunSpotServicesView$1.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SunSpotServicesView$2.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SunSpotServicesView$3.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SunSpotServicesView$4.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SunSpotServicesView.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SunSpotSnifferView$1.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SunSpotSnifferView$2.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SunSpotSnifferView$3.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SunSpotSnifferView.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SunSpotView$1.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SunSpotView$2.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SunSpotView$3.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SunSpotView$4.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SunSpotView$5.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SunSpotView$6.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SunSpotView$7.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/SunSpotView.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/graphicLibraries/ConnectLine.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/graphicLibraries/ConnectorContainer.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/graphicLibraries/ConnectorPropertiesPanel$1.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/graphicLibraries/ConnectorPropertiesPanel$2.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/graphicLibraries/ConnectorPropertiesPanel$3.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/graphicLibraries/ConnectorPropertiesPanel.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/graphicLibraries/DraggableLabel$DragProcessor$1.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/graphicLibraries/DraggableLabel$DragProcessor.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/graphicLibraries/DraggableLabel$JConnector_Loop.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/graphicLibraries/DraggableLabel.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotUI/graphicLibraries/JConnector.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotworld/AuroraMessage.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotworld/BTConnection.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotworld/BTListener.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotworld/BluetoothMulticast.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotworld/ClassifyConnection.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotworld/Events.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotworld/GroupConnection.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotworld/MulticastConnection.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotworld/SenderConnection.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotworld/Service.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotworld/Status.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotworld/SunSpotHostApplication.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotworld/TCPConnection.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotworld/TCPListener.class
+SolAgentPlatform_NoSun/build/classes/org/sunspotworld/TypeConnection.class
+SolAgentPlatform_NoSun/dist/README.TXT
+SolAgentPlatform_NoSun/dist/SolAgentPlatform_NoSun.jar
+SolAgentPlatform_NoSun/intelbth.dll
+SolAgentPlatform_NoSun/intelbth_x64.dll
+SolAgentPlatform_NoSun/libbluecove.so
+SolAgentPlatform_NoSun/libbluecove_x64.so
+SolAgentPlatform_NoSun/manifest.mf
+SolAgentPlatform_NoSun/nbproject/build-impl.xml
+SolAgentPlatform_NoSun/nbproject/genfiles.properties
+SolAgentPlatform_NoSun/nbproject/private/private.properties
+SolAgentPlatform_NoSun/nbproject/private/private.xml
+SolAgentPlatform_NoSun/nbproject/project.properties
+SolAgentPlatform_NoSun/nbproject/project.xml
+SolAgentPlatform_NoSun/src/IPPort
+SolAgentPlatform_NoSun/src/Notas
+SolAgentPlatform_NoSun/src/bt/javax/microedition/io/Connection.java
+SolAgentPlatform_NoSun/src/bt/javax/microedition/io/ConnectionNotFoundException.java
+SolAgentPlatform_NoSun/src/bt/javax/microedition/io/Connector.java
+SolAgentPlatform_NoSun/src/bt/javax/microedition/io/ContentConnection.java
+SolAgentPlatform_NoSun/src/bt/javax/microedition/io/InputConnection.java
+SolAgentPlatform_NoSun/src/bt/javax/microedition/io/OutputConnection.java
+SolAgentPlatform_NoSun/src/bt/javax/microedition/io/ServerSocketConnection.java
+SolAgentPlatform_NoSun/src/bt/javax/microedition/io/SocketConnection.java
+SolAgentPlatform_NoSun/src/bt/javax/microedition/io/StreamConnection.java
+SolAgentPlatform_NoSun/src/bt/javax/microedition/io/StreamConnectionNotifier.java
+SolAgentPlatform_NoSun/src/com/ibm/oti/connection/CreateConnection.java
+SolAgentPlatform_NoSun/src/com/ibm/oti/connection/btgoep/Connection.java
+SolAgentPlatform_NoSun/src/com/ibm/oti/connection/btl2cap/Connection.java
+SolAgentPlatform_NoSun/src/com/ibm/oti/connection/btspp/Connection.java
+SolAgentPlatform_NoSun/src/com/ibm/oti/connection/tcpobex/Connection.java
+SolAgentPlatform_NoSun/src/com/ibm/oti/vm/VM.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/BlueCoveConfigProperties.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/BlueCoveImpl.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/BlueCoveLocalDeviceProperties.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/BluetoothConnectionAccess.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/BluetoothConnectionAccessAdapter.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/BluetoothConnectionNotifierBase.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/BluetoothConnectionNotifierParams.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/BluetoothConnectionNotifierServiceRecordAccess.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/BluetoothConnectionParams.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/BluetoothConsts.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/BluetoothL2CAPClientConnection.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/BluetoothL2CAPConnection.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/BluetoothL2CAPConnectionNotifier.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/BluetoothL2CAPServerConnection.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/BluetoothRFCommClientConnection.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/BluetoothRFCommConnection.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/BluetoothRFCommConnectionNotifier.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/BluetoothRFCommInputStream.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/BluetoothRFCommOutputStream.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/BluetoothRFCommServerConnection.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/BluetoothServerConnection.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/BluetoothStack.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/BluetoothStackBlueSoleil.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/BluetoothStackBlueZ.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/BluetoothStackBlueZConsts.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/BluetoothStackBlueZNativeTests.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/BluetoothStackExtension.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/BluetoothStackMicrosoft.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/BluetoothStackOSX.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/BluetoothStackToshiba.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/BluetoothStackWIDCOMM.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/BluetoothStackWIDCOMMSDPInputStream.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/DebugLog.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/DeviceInquiryRunnable.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/DeviceInquiryThread.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/DiscoveryListenerAdapter.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/IBMJ9Helper.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/MicroeditionConnector.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/NativeLibLoader.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/NativeTestInterfaces.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/NotImplementedError.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/NotImplementedIOException.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/NotSupportedIOException.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/NotSupportedRuntimeException.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/RemoteDeviceHelper.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/RetrieveDevicesCallback.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/SDPInputStream.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/SDPOutputStream.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/SearchServicesDeviceNotReachableException.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/SearchServicesException.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/SearchServicesRunnable.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/SearchServicesTerminatedException.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/SearchServicesThread.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/SelectServiceHandler.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/ServiceRecordImpl.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/ServiceRecordsRegistry.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/ThreadLocalWrapper.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/Utils.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/UtilsJavaSE.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/UtilsJavaSE5.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/UtilsStringTokenizer.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/WeakVectorFactory.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/btgoep/Connection.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/btl2cap/Connection.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/btspp/Connection.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/gcf/socket/ServerSocketConnection.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/gcf/socket/SocketConnection.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/obex/BlueCoveOBEX.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/obex/MD5DigestWrapper.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/obex/OBEXAuthentication.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/obex/OBEXClientOperation.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/obex/OBEXClientOperationGet.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/obex/OBEXClientOperationPut.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/obex/OBEXClientSessionImpl.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/obex/OBEXConnectionParams.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/obex/OBEXHeaderSetImpl.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/obex/OBEXOperation.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/obex/OBEXOperationCodes.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/obex/OBEXOperationDelivery.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/obex/OBEXOperationInputStream.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/obex/OBEXOperationOutputStream.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/obex/OBEXOperationReceive.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/obex/OBEXServerOperation.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/obex/OBEXServerOperationGet.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/obex/OBEXServerOperationPut.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/obex/OBEXServerSessionImpl.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/obex/OBEXSessionBase.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/obex/OBEXSessionNotifierImpl.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/obex/OBEXTCPServiceRecordImpl.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/obex/OBEXUtils.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/obex/UnsupportedInputStream.java
+SolAgentPlatform_NoSun/src/com/intel/bluetooth/tcpobex/Connection.java
+SolAgentPlatform_NoSun/src/javax/bluetooth/BluetoothConnectionException.java
+SolAgentPlatform_NoSun/src/javax/bluetooth/BluetoothStateException.java
+SolAgentPlatform_NoSun/src/javax/bluetooth/DataElement.java
+SolAgentPlatform_NoSun/src/javax/bluetooth/DeviceClass.java
+SolAgentPlatform_NoSun/src/javax/bluetooth/DiscoveryAgent.java
+SolAgentPlatform_NoSun/src/javax/bluetooth/DiscoveryListener.java
+SolAgentPlatform_NoSun/src/javax/bluetooth/L2CAPConnection.java
+SolAgentPlatform_NoSun/src/javax/bluetooth/L2CAPConnectionNotifier.java
+SolAgentPlatform_NoSun/src/javax/bluetooth/LocalDevice.java
+SolAgentPlatform_NoSun/src/javax/bluetooth/RemoteDevice.java
+SolAgentPlatform_NoSun/src/javax/bluetooth/ServiceRecord.java
+SolAgentPlatform_NoSun/src/javax/bluetooth/ServiceRegistrationException.java
+SolAgentPlatform_NoSun/src/javax/bluetooth/UUID.java
+SolAgentPlatform_NoSun/src/javax/obex/Authenticator.java
+SolAgentPlatform_NoSun/src/javax/obex/ClientSession.java
+SolAgentPlatform_NoSun/src/javax/obex/HeaderSet.java
+SolAgentPlatform_NoSun/src/javax/obex/Operation.java
+SolAgentPlatform_NoSun/src/javax/obex/PasswordAuthentication.java
+SolAgentPlatform_NoSun/src/javax/obex/ResponseCodes.java
+SolAgentPlatform_NoSun/src/javax/obex/ServerRequestHandler.java
+SolAgentPlatform_NoSun/src/javax/obex/SessionNotifier.java
+SolAgentPlatform_NoSun/src/org/images/Add agent sniffer.png
+SolAgentPlatform_NoSun/src/org/images/Add group.png
+SolAgentPlatform_NoSun/src/org/images/Android.png
+SolAgentPlatform_NoSun/src/org/images/Bluetooth.png
+SolAgentPlatform_NoSun/src/org/images/ContactUs.png
+SolAgentPlatform_NoSun/src/org/images/Exit.png
+SolAgentPlatform_NoSun/src/org/images/Groups.png
+SolAgentPlatform_NoSun/src/org/images/Register agent.png
+SolAgentPlatform_NoSun/src/org/images/Remove agent sniffer.png
+SolAgentPlatform_NoSun/src/org/images/Remove all.png
+SolAgentPlatform_NoSun/src/org/images/Remove group.png
+SolAgentPlatform_NoSun/src/org/images/Remove one.png
+SolAgentPlatform_NoSun/src/org/images/Save as.png
+SolAgentPlatform_NoSun/src/org/images/Send message group.png
+SolAgentPlatform_NoSun/src/org/images/Send message user.png
+SolAgentPlatform_NoSun/src/org/images/Send message user2.png
+SolAgentPlatform_NoSun/src/org/images/Send message.png
+SolAgentPlatform_NoSun/src/org/images/Services.png
+SolAgentPlatform_NoSun/src/org/images/Sniffer.png
+SolAgentPlatform_NoSun/src/org/images/SunSpot.png
+SolAgentPlatform_NoSun/src/org/images/Under construction.png
+SolAgentPlatform_NoSun/src/org/images/Unknown.png
+SolAgentPlatform_NoSun/src/org/images/Unregister agent.png
+SolAgentPlatform_NoSun/src/org/images/sol-icon.png
+SolAgentPlatform_NoSun/src/org/images/sol-icon_mini.png
+SolAgentPlatform_NoSun/src/org/images/sol.JPG
+SolAgentPlatform_NoSun/src/org/images/sol_mini.jpg
+SolAgentPlatform_NoSun/src/org/images/sol_mini2.jpg
+SolAgentPlatform_NoSun/src/org/sunspotUI/AboutSolView.form
+SolAgentPlatform_NoSun/src/org/sunspotUI/AboutSolView.java
+SolAgentPlatform_NoSun/src/org/sunspotUI/BluetoothDevicesView.form
+SolAgentPlatform_NoSun/src/org/sunspotUI/BluetoothDevicesView.java
+SolAgentPlatform_NoSun/src/org/sunspotUI/ContactUsView.form
+SolAgentPlatform_NoSun/src/org/sunspotUI/ContactUsView.java
+SolAgentPlatform_NoSun/src/org/sunspotUI/GroupConnectionsView.form
+SolAgentPlatform_NoSun/src/org/sunspotUI/GroupConnectionsView.java
+SolAgentPlatform_NoSun/src/org/sunspotUI/GroupNameView.form
+SolAgentPlatform_NoSun/src/org/sunspotUI/GroupNameView.java
+SolAgentPlatform_NoSun/src/org/sunspotUI/MessageView.form
+SolAgentPlatform_NoSun/src/org/sunspotUI/MessageView.java
+SolAgentPlatform_NoSun/src/org/sunspotUI/PortsView.form
+SolAgentPlatform_NoSun/src/org/sunspotUI/PortsView.java
+SolAgentPlatform_NoSun/src/org/sunspotUI/SolAgentPlatformView.form
+SolAgentPlatform_NoSun/src/org/sunspotUI/SolAgentPlatformView.java
+SolAgentPlatform_NoSun/src/org/sunspotUI/SunSpotServicesView.form
+SolAgentPlatform_NoSun/src/org/sunspotUI/SunSpotServicesView.java
+SolAgentPlatform_NoSun/src/org/sunspotUI/SunSpotSnifferView.form
+SolAgentPlatform_NoSun/src/org/sunspotUI/SunSpotSnifferView.java
+SolAgentPlatform_NoSun/src/org/sunspotUI/SunSpotView.form
+SolAgentPlatform_NoSun/src/org/sunspotUI/SunSpotView.java
+SolAgentPlatform_NoSun/src/org/sunspotUI/graphicLibraries/ConnectLine.java
+SolAgentPlatform_NoSun/src/org/sunspotUI/graphicLibraries/ConnectorContainer.java
+SolAgentPlatform_NoSun/src/org/sunspotUI/graphicLibraries/ConnectorPropertiesPanel.java
+SolAgentPlatform_NoSun/src/org/sunspotUI/graphicLibraries/DraggableLabel.java
+SolAgentPlatform_NoSun/src/org/sunspotUI/graphicLibraries/JConnector.java
+SolAgentPlatform_NoSun/src/org/sunspotworld/AuroraMessage.java
+SolAgentPlatform_NoSun/src/org/sunspotworld/BTConnection.java
+SolAgentPlatform_NoSun/src/org/sunspotworld/BTListener.java
+SolAgentPlatform_NoSun/src/org/sunspotworld/BluetoothMulticast.java
+SolAgentPlatform_NoSun/src/org/sunspotworld/ClassifyConnection.java
+SolAgentPlatform_NoSun/src/org/sunspotworld/Events.java
+SolAgentPlatform_NoSun/src/org/sunspotworld/GroupConnection.java
+SolAgentPlatform_NoSun/src/org/sunspotworld/MulticastConnection.java
+SolAgentPlatform_NoSun/src/org/sunspotworld/SenderConnection.java
+SolAgentPlatform_NoSun/src/org/sunspotworld/Service.java
+SolAgentPlatform_NoSun/src/org/sunspotworld/Status.java
+SolAgentPlatform_NoSun/src/org/sunspotworld/SunSpotHostApplication.java
+SolAgentPlatform_NoSun/src/org/sunspotworld/TCPConnection.java
+SolAgentPlatform_NoSun/src/org/sunspotworld/TCPListener.java
+SolAgentPlatform_NoSun/src/org/sunspotworld/TypeConnection.java
+Waspmotes/NFCSensorWaspmote/NFCSensorWaspmote.pde
+Waspmotes/NFCSensorWaspmote/applet/HardwareSerial.cpp.o
+Waspmotes/NFCSensorWaspmote/applet/MemoryFree.cpp.o
+Waspmotes/NFCSensorWaspmote/applet/NFCSensorWaspmote.cpp
+Waspmotes/NFCSensorWaspmote/applet/NFCSensorWaspmote.cpp.eep
+Waspmotes/NFCSensorWaspmote/applet/NFCSensorWaspmote.cpp.elf
+Waspmotes/NFCSensorWaspmote/applet/NFCSensorWaspmote.cpp.hex
+Waspmotes/NFCSensorWaspmote/applet/NFCSensorWaspmote.cpp.o
+Waspmotes/NFCSensorWaspmote/applet/SoftwareSerial.cpp.o
+Waspmotes/NFCSensorWaspmote/applet/WInterrupts.c.o
+Waspmotes/NFCSensorWaspmote/applet/WaspPWR.cpp.o
+Waspmotes/NFCSensorWaspmote/applet/WaspRFID13.cpp.o
+Waspmotes/NFCSensorWaspmote/applet/WaspRTC.cpp.o
+Waspmotes/NFCSensorWaspmote/applet/WaspRegisters.c.o
+Waspmotes/NFCSensorWaspmote/applet/WaspSensorCities.cpp.o
+Waspmotes/NFCSensorWaspmote/applet/WaspSensorEvent.cpp.o
+Waspmotes/NFCSensorWaspmote/applet/WaspUSB.cpp.o
+Waspmotes/NFCSensorWaspmote/applet/WaspUtils.cpp.o
+Waspmotes/NFCSensorWaspmote/applet/WaspWIFI.cpp.o
+Waspmotes/NFCSensorWaspmote/applet/WaspXBee.cpp.o
+Waspmotes/NFCSensorWaspmote/applet/WaspXBeeCore.cpp.o
+Waspmotes/NFCSensorWaspmote/applet/WaspXBeeZB.cpp.o
+Waspmotes/NFCSensorWaspmote/applet/Wire.cpp.o
+Waspmotes/NFCSensorWaspmote/applet/byteordering.c.o
+Waspmotes/NFCSensorWaspmote/applet/core.a
+Waspmotes/NFCSensorWaspmote/applet/pins_waspmote.c.o
+Waspmotes/NFCSensorWaspmote/applet/twi.c.o
+Waspmotes/NFCSensorWaspmote/applet/wiring.c.o
+Waspmotes/NFCSensorWaspmote/applet/wiring_analog.c.o
+Waspmotes/NFCSensorWaspmote/applet/wiring_digital.c.o
+Waspmotes/NFCSensorWaspmote/applet/wiring_pulse.c.o
+Waspmotes/NFCSensorWaspmote/applet/wiring_serial.c.o
+Waspmotes/NFCSensorWaspmote/applet/wiring_shift.c.o
+Waspmotes/room1SensorWaspmote/applet/HardwareSerial.cpp.o
+Waspmotes/room1SensorWaspmote/applet/MemoryFree.cpp.o
+Waspmotes/room1SensorWaspmote/applet/SoftwareSerial.cpp.o
+Waspmotes/room1SensorWaspmote/applet/WInterrupts.c.o
+Waspmotes/room1SensorWaspmote/applet/WaspPWR.cpp.o
+Waspmotes/room1SensorWaspmote/applet/WaspRFID13.cpp.o
+Waspmotes/room1SensorWaspmote/applet/WaspRTC.cpp.o
+Waspmotes/room1SensorWaspmote/applet/WaspRegisters.c.o
+Waspmotes/room1SensorWaspmote/applet/WaspSensorCities.cpp.o
+Waspmotes/room1SensorWaspmote/applet/WaspSensorEvent.cpp.o
+Waspmotes/room1SensorWaspmote/applet/WaspUSB.cpp.o
+Waspmotes/room1SensorWaspmote/applet/WaspUtils.cpp.o
+Waspmotes/room1SensorWaspmote/applet/WaspWIFI.cpp.o
+Waspmotes/room1SensorWaspmote/applet/WaspXBee.cpp.o
+Waspmotes/room1SensorWaspmote/applet/WaspXBeeCore.cpp.o
+Waspmotes/room1SensorWaspmote/applet/WaspXBeeZB.cpp.o
+Waspmotes/room1SensorWaspmote/applet/Wire.cpp.o
+Waspmotes/room1SensorWaspmote/applet/byteordering.c.o
+Waspmotes/room1SensorWaspmote/applet/core.a
+Waspmotes/room1SensorWaspmote/applet/pins_waspmote.c.o
+Waspmotes/room1SensorWaspmote/applet/room1SensorWaspmote.cpp
+Waspmotes/room1SensorWaspmote/applet/room1SensorWaspmote.cpp.eep
+Waspmotes/room1SensorWaspmote/applet/room1SensorWaspmote.cpp.elf
+Waspmotes/room1SensorWaspmote/applet/room1SensorWaspmote.cpp.hex
+Waspmotes/room1SensorWaspmote/applet/room1SensorWaspmote.cpp.o
+Waspmotes/room1SensorWaspmote/applet/twi.c.o
+Waspmotes/room1SensorWaspmote/applet/wiring.c.o
+Waspmotes/room1SensorWaspmote/applet/wiring_analog.c.o
+Waspmotes/room1SensorWaspmote/applet/wiring_digital.c.o
+Waspmotes/room1SensorWaspmote/applet/wiring_pulse.c.o
+Waspmotes/room1SensorWaspmote/applet/wiring_serial.c.o
+Waspmotes/room1SensorWaspmote/applet/wiring_shift.c.o
+Waspmotes/room1SensorWaspmote/room1SensorWaspmote.pde
+Waspmotes/room2SensorWaspmote/room2SensorWaspmote.pde
